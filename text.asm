@@ -603,14 +603,14 @@ _OakLabEmailText:: ; 88a60 (22:4a60)
 	para "Calling all"
 	line "#MON trainers!"
 
-	para "The elite trainers"
+	para "The ELITE FOUR"
 	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	cont "are accepting"
+	cont "all challengers!"
 
 	para "Bring your best"
 	line "#MON and see"
-	cont "how you rate as a"
+	cont "how you rank as a"
 	cont "trainer!"
 
 	para "#MON LEAGUE HQ"
@@ -1015,13 +1015,13 @@ _EnemyRanText:: ; 89677 (22:5677)
 	prompt
 
 _HurtByPoisonText:: ; 89689 (22:5689)
-	text $5a, "'s"
+	text $5a, " is"
 	line "hurt by poison!"
 	prompt
 
 _HurtByBurnText:: ; 8969d (22:569d)
-	text $5a, "'s"
-	line "hurt by the burn!"
+	text $5a, " is"
+	line "hurt by its burn!"
 	prompt
 
 _HurtByLeechSeedText:: ; 896b3 (22:56b3)
@@ -1107,8 +1107,8 @@ _TrainerSentOutText:: ; 897b4 (22:57b4)
 	done
 
 _NoWillText:: ; 897c9 (22:57c9)
-	text "There's no will"
-	line "to fight!"
+	text "There's no will to"
+	line "battle!"
 	prompt
 
 _CantEscapeText:: ; 897e3 (22:57e3)
@@ -1186,8 +1186,9 @@ _IsFrozenText:: ; 89920 (22:5920)
 	prompt
 
 _FullyParalyzedText:: ; 89934 (22:5934)
-	text $5A,"'s"
-	line "fully paralyzed!"
+	text $5A," is"
+	line "paralyzed! It"
+	cont "can't move!"
 	prompt
 
 _FlinchedText:: ; 89949 (22:5949)
@@ -1199,6 +1200,14 @@ _MustRechargeText:: ; 89956 (22:5956)
 	text $5A
 	line "must recharge!"
 	prompt
+	
+;_DisabledNoMoreText:: ; 89968 (22:5968)
+	;text $5A,"'s"
+	;line "@"
+	;TX_RAM wcd6d
+	;text " is"
+	;cont "disabled no more!"
+	;prompt
 
 _DisabledNoMoreText:: ; 89968 (22:5968)
 	text $5A,"'s"
@@ -1216,8 +1225,9 @@ _HurtItselfText:: ; 8998e (22:598e)
 	prompt
 
 _ConfusedNoMoreText:: ; 899b0 (22:59b0)
-	text $5A,"'s"
-	line "confused no more!"
+	text $5A
+	line "snapped out of"
+	cont "confusion!"
 	prompt
 
 _SavingEnergyText:: ; 899c6 (22:59c6)
@@ -1231,7 +1241,7 @@ _UnleashedEnergyText:: ; 899db (22:59db)
 	prompt
 
 _ThrashingAboutText:: ; 899f0 (22:59f0)
-	text $5A,"'s"
+	text $5A," is"
 	line "thrashing about!"
 	done
 
@@ -1304,7 +1314,7 @@ _KeptGoingAndCrashedText:: ; 89a89 (22:5a89)
 	prompt
 
 _UnaffectedText:: ; 89aa4 (22:5aa4)
-	text $59, "'s"
+	text $59, " is"
 	line "unaffected!"
 	prompt
 
@@ -1359,7 +1369,7 @@ _SubstituteTookDamageText:: ; 89b47 (22:5b47)
 
 _SubstituteBrokeText:: ; 89b6a (22:5b6a)
 	text $59, "'s"
-	line "SUBSTITUTE broke!"
+	line "SUBSTITUTE faded!"
 	prompt
 
 _BuildingRageText:: ; 89b80 (22:5b80)
@@ -1443,7 +1453,7 @@ _GhostCantBeIDdText:: ; 89c9e (22:5c9e)
 	prompt
 
 _GoText:: ; 89cbc (22:5cbc)
-	text "Go! @@"
+	text "Go, @@"
 
 _DoItText:: ; 89cc3 (22:5cc3)
 	text "Do it! @@"
@@ -1479,7 +1489,7 @@ _ComeBackText:: ; 89d15 (22:5d15)
 	done
 
 _SuperEffectiveText:: ; 89d22 (22:5d22)
-	text "It's super"
+	text "It's super-"
 	line "effective!"
 	prompt
 
@@ -1516,8 +1526,8 @@ _ClearSaveDataText:: ; 89d96 (22:5d96)
 	done
 
 _WhichFloorText:: ; 89dad (22:5dad)
-	text "Which floor do"
-	line "you want? "
+	text "Travel to"
+	line "which floor? "
 	done
 
 _PartyMenuNormalText:: ; 89dc8 (22:5dc8)
@@ -1561,7 +1571,8 @@ _AntidoteText:: ; 89e4b (22:5e4b)
 _ParlyzHealText:: ; 89e65 (22:5e65)
 	TX_RAM wcd6d
 	text "'s"
-	line "rid of paralysis!"
+	line "paralysis"
+	cont "was healed!"
 	done
 
 _BurnHealText:: ; 89e7d (22:5e7d)
@@ -1692,7 +1703,7 @@ _CantCarryMoreText:: ; 8a0a9 (22:60a9)
 
 _WhatToTossText:: ; 8a0c9 (22:60c9)
 	text "What do you want"
-	line "to toss away?"
+	line "to throw away?"
 	done
 
 _TossHowManyText:: ; 8a0e9 (22:60e9)
@@ -1730,12 +1741,12 @@ _MonWasStoredText:: ; 0x8a159
 
 _CantDepositLastMonText:: ; 0x8a177
 	text "You can't deposit"
-	line "the last #MON!"
+	line "your last #MON!"
 	prompt
 
 _BoxFullText:: ; 0x8a198
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Oops! This Box"
+	line "is full!"
 	prompt
 
 _MonIsTakenOutText:: ; 0x8a1b9
@@ -1769,15 +1780,21 @@ _OnceReleasedText:: ; 0x8a23d
 	text "Once released,"
 	line "@"
 	TX_RAM wcf4b
-	text " is"
-	cont "gone forever. OK?"
+	text " will"
+	cont "be gone forever."
+	
+	para "Really release"
+	line "@"
+	TX_RAM wcf4b
+	text "?"
 	done
 
 _MonWasReleasedText:: ; 0x8a268
 	TX_RAM wcf4b
 	text " was"
-	line "released outside."
-	cont "Bye @"
+	line "released into the"
+	cont "wild. Bye,"
+	cont "@"
 
 _CF4BExclamationText:: ; 8a288 (22:6288)
 	TX_RAM wcf4b
@@ -1964,8 +1981,8 @@ INCLUDE "text/maps/route_24_2.asm"
 INCLUDE "text/maps/route_25.asm"
 
 _FileDataDestroyedText:: ; 945f1 (25:45f1)
-	text "The file data is"
-	line "destroyed!"
+	text "The save file is"
+	line "corrupted!"
 	prompt
 
 _WouldYouLikeToSaveText:: ; 9460e (25:460e)
@@ -2028,7 +2045,7 @@ _FellAsleepText:: ; 94715 (25:4715)
 	prompt
 
 _AlreadyAsleepText:: ; 94725 (25:4725)
-	text $59, "'s"
+	text $59, " is"
 	line "already asleep!"
 	prompt
 
@@ -2038,7 +2055,7 @@ _PoisonedText:: ; 94739 (25:4739)
 	prompt
 
 _BadlyPoisonedText:: ; 9474a (25:474a)
-	text $59, "'s"
+	text $59, " was"
 	line "badly poisoned!"
 	prompt
 
@@ -2054,7 +2071,7 @@ _FrozenText:: ; 9476d (25:476d)
 
 _FireDefrostedText:: ; 94782 (25:4782)
 	text $59
-	line "was defrosted!"
+	line "thawed out."
 	prompt
 
 _MonsStatsRoseText:: ; 94795 (25:4795)
@@ -2064,7 +2081,7 @@ _MonsStatsRoseText:: ; 94795 (25:4795)
 	text "@@"
 
 _GreatlyRoseText:: ; 947a0 (25:47a0)
-	text $4c, "greatly@@"
+	text $4c, "sharply@@"
 
 _RoseText:: ; 947ab (25:47ab)
 	text " rose!"
@@ -2077,7 +2094,7 @@ _MonsStatsFellText:: ; 947b3 (25:47b3)
 	text "@@"
 
 _GreatlyFellText:: ; 947be (25:47be)
-	text $4c, "greatly@@"
+	text $4c, "harshly@@"
 
 _FellText:: ; 947c9 (25:47c9)
 	text " fell!"
@@ -2175,9 +2192,9 @@ _IsUnaffectedText:: ; 948fb (25:48fb)
 	prompt
 
 _ParalyzedMayNotAttackText:: ; 9490d (25:490d)
-	text $59, "'s"
+	text $59, " is"
 	line "paralyzed! It may"
-	cont "not attack!"
+	cont "fail to attack!"
 	prompt
 
 _SubstituteText:: ; 9492f (25:492f)
@@ -2187,7 +2204,7 @@ _SubstituteText:: ; 9492f (25:492f)
 
 _HasSubstituteText:: ; 94949 (25:4949)
 	text $5a
-	line "has a SUBSTITUTE!"
+	cont "has a SUBSTITUTE!"
 	prompt
 
 _TooWeakSubstituteText:: ; 9495e (25:495e)
@@ -2201,7 +2218,7 @@ _CoinsScatteredText:: ; 9497e (25:497e)
 	prompt
 
 _GettingPumpedText:: ; 9499b (25:499b)
-	text $5a, "'s"
+	text $5a, " is"
 	line "getting pumped!"
 	prompt
 
@@ -2216,7 +2233,7 @@ _EvadedAttackText:: ; 949be (25:49be)
 	prompt
 
 _HitWithRecoilText:: ; 949d0 (25:49d0)
-	text $5a, "'s"
+	text $5a, " is"
 	line "hit with recoil!"
 	prompt
 
@@ -2226,8 +2243,8 @@ _ConvertedTypeText:: ; 949e5 (25:49e5)
 	prompt
 
 _StatusChangesEliminatedText:: ; 949fc (25:49fc)
-	text "All STATUS changes"
-	line "are eliminated!"
+	text "All status changes"
+	line "were eliminated!"
 	prompt
 
 _StartedSleepingEffect:: ; 94a20 (25:4a20)
@@ -2255,7 +2272,7 @@ _TransformedText:: ; 94a6c (25:4a6c)
 	prompt
 
 _LightScreenProtectedText:: ; 94a87 (25:4a87)
-	text $5a, "'s"
+	text $5a, " is"
 	line "protected against"
 	cont "special attacks!"
 	prompt
@@ -2565,7 +2582,7 @@ _NeedYourPokemonText:: ; a28ce (28:68ce)
 _PokemonFightingFitText:: ; a28e8 (28:68e8)
 	text "Thank you!"
 	line "Your #MON are"
-	cont "fighting fit!"
+	cont "fully healed!"
 	prompt
 
 _PokemonCenterFarewellText:: ; a2910 (28:6910)
@@ -2646,8 +2663,9 @@ _FlashLightsAreaText:: ; a40a9 (29:40a9)
 	prompt
 
 _WarpToLastPokemonCenterText:: ; a40cc (29:40cc)
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "[PLAYER] warps"
+	line "to the last"
+	cont "#MON CENTER."
 	done
 
 _CannotUseTeleportNowText:: ; a40eb (29:40eb)
@@ -2773,11 +2791,11 @@ _ItemUseBallText08:: ; a6810 (29:6810)
 	prompt
 
 _ItemUseBallText06:: ; a6835 (29:6835)
-	text "New #DEX data"
-	line "will be added for"
-	cont "@"
 	TX_RAM wEnemyMonNick
-	text "!@@"
+	text "'s"
+	line "data has been"
+	cont "added to the"
+	cont "#DEX!@@"
 
 _SurfingGotOnText:: ; a685e (29:685e)
 	text "[PLAYER] got on"
@@ -2995,8 +3013,8 @@ _IsItOKToTossItemText:: ; a804f (2a:404f)
 	prompt
 
 _TooImportantToTossText:: ; a8068 (2a:4068)
-	text "That's too impor-"
-	line "tant to toss!"
+	text "That's too"
+	line "important to toss!"
 	prompt
 
 _AlreadyKnowsText:: ; a8088 (2a:4088)
