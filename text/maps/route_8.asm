@@ -166,7 +166,7 @@ ENDC
 
 _Route8Text10:: ; 8e262 (23:6262)
 	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
+	line "Celadon City -"
 	cont "LAVENDER TOWN"
 	done
 

@@ -147,7 +147,7 @@ _Route9AfterBattleText9:: ; 8e5f6 (23:65f6)
 
 _Route9Text11:: ; 8e61e (23:661e)
 	text "ROUTE 9"
-	line "CERULEAN CITY-"
+	line "Cerulean City-"
 	cont "ROCK TUNNEL"
 	done
 

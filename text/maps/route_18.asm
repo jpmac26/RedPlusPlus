@@ -46,7 +46,7 @@ _Route18AfterBattleText3:: ; 91879 (24:5879)
 
 _Route18Text4:: ; 9189d (24:589d)
 	text "ROUTE 18"
-	line "CELADON CITY -"
+	line "Celadon City -"
 	cont "FUCHSIA CITY"
 	done
 

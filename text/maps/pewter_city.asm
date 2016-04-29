@@ -4,8 +4,8 @@ _PewterCityText1:: ; a497f (29:497f)
 	cont "from the moon!"
 
 	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	line "after Moon Stone"
+	cont "fell on Mt. Moon."
 	done
 
 _PewterCityText2:: ; a49e0 (29:49e0)
@@ -14,21 +14,21 @@ _PewterCityText2:: ; a49e0 (29:49e0)
 	cont "trainers here!"
 
 	para "They're all like"
-	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
+	line "Bug Catchers,"
+	cont "but Pewter Gym's"
 	cont "BROCK is totally"
 	cont "into it!"
 	done
 
 _PewterCityText_193f1:: ; a4a56 (29:4a56)
 	text "Did you check out"
-	line "the MUSEUM?"
+	line "the Museum?"
 	done
 
 _PewterCityText_193f6:: ; a4a75 (29:4a75)
 	text "Weren't those"
-	line "fossils from MT."
-	cont "MOON amazing?"
+	line "fossils from Mt."
+	cont "Moon amazing?"
 	done
 
 _PewterCityText_193fb:: ; a4aa2 (29:4aa2)
@@ -57,7 +57,7 @@ _PewterCityText_1942c:: ; a4b38 (29:4b38)
 	done
 
 _PewterCityText_19431:: ; a4b55 (29:4b55)
-	text "I'm spraying REPEL"
+	text "I'm spraying Repel"
 	line "to keep #mon"
 	cont "out of my garden!"
 	done
@@ -90,28 +90,28 @@ _PewterCityText7:: ; a4c4a (29:4c4a)
 
 	para "Thieves have been"
 	line "stealing #mon"
-	cont "fossils at MT."
-	cont "MOON! Please call"
-	cont "PEWTER POLICE"
+	cont "fossils at Mt."
+	cont "Moon! Please call"
+	cont "Pewter Police"
 	cont "with any info!"
 	done
 
 _PewterCityText10:: ; a4cb1 (29:4cb1)
-	text "PEWTER MUSEUM"
-	line "OF SCIENCE"
+	text "Pewter Museum"
+	line "of Science"
 	done
 
 _PewterCityText11:: ; a4ccb (29:4ccb)
-	text "PEWTER CITY"
-	line "#mon GYM"
-	cont "LEADER: BROCK"
+	text "Pewter City"
+	line "#mon Gym"
+	cont "Leader: BROCK"
 
 	para "The Rock Solid"
 	line "#mon Trainer!"
 	done
 
 _PewterCityText12:: ; a4d0c (29:4d0c)
-	text "PEWTER CITY"
+	text "Pewter City"
 	line "A Stone Gray"
 	cont "City"
 	done

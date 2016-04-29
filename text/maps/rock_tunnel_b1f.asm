@@ -107,7 +107,7 @@ _RockTunnel1AfterBattleText7:: ; 8c59d (23:459d)
 
 _RockTunnel1Text8:: ; 8c5b7 (23:45b7)
 	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
+	line "Cerulean City -"
 	cont "LAVENDER TOWN"
 	done
 

@@ -98,13 +98,13 @@ _CeladonCityText10:: ; a5c82 (29:5c82)
 	done
 
 _CeladonCityText11:: ; a5d18 (29:5d18)
-	text "CELADON CITY"
+	text "Celadon City"
 	line "The City of"
 	cont "Rainbow Dreams"
 	done
 
 _CeladonCityText13:: ; a5d41 (29:5d41)
-	text "CELADON CITY"
+	text "Celadon City"
 	line "#mon GYM"
 	cont "LEADER: ERIKA"
 

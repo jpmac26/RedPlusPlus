@@ -1082,7 +1082,7 @@ StartMenuExitText: ; 71af (1:71af)
 	db "Exit@"
 
 StartMenuOptionText: ; 71b4 (1:71b4)
-	db "Option@"
+	db "Options@"
 
 PrintStartMenuItem: ; 71bb (1:71bb)
 	push hl

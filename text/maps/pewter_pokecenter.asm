@@ -2,7 +2,7 @@ _PewterPokecenterText1:: ; 98704 (26:4704)
 	text "What!?"
 
 	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
+	line "at Mt. Moon? Huh?"
 	cont "I'm on the phone!"
 
 	para "Scram!"

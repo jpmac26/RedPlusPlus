@@ -98,7 +98,7 @@ _MtMoon1AfterBattleText7:: ; 8089b (20:489b)
 _MtMoon1BattleText8:: ; 808c9 (20:48c9)
 	text "Go through this"
 	line "cave to get to"
-	cont "CERULEAN CITY!"
+	cont "Cerulean City!"
 	done
 
 _MtMoon1EndBattleText8:: ; 808f8 (20:48f8)

@@ -11,7 +11,7 @@ _UnnamedText_5d773:: ; 8c132 (23:4132)
 _UnnamedText_5d778:: ; 8c195 (23:4195)
 	text "TEAM ROCKET had a"
 	line "secret hideout in"
-	cont "CELADON CITY?"
+	cont "Celadon City?"
 	done
 
 _UnnamedText_5d77d:: ; 8c1c8 (23:41c8)

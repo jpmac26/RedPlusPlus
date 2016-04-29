@@ -17,7 +17,7 @@ CeruleanGymScript_5c6d0: ; 5c6d0 (17:46d0)
 	jp LoadGymLeaderAndCityName
 
 Gym2CityName: ; 5c6d9 (17:46d9)
-	db "CERULEAN CITY@"
+	db "Cerulean City@"
 
 Gym2LeaderName: ; 5c6e7 (17:46e7)
 	db "MISTY@"

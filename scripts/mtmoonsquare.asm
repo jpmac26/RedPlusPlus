@@ -34,6 +34,6 @@ MtMoonSquareText3:
 	db "@"
 	
 MtMoonSquareText4:
-	text "MT. MOON SQUARE"
+	text "Mt. Moon Square"
 	done
 	db "@"

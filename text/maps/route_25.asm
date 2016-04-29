@@ -90,14 +90,14 @@ _Route25EndBattleText6:: ; 94455 (25:4455)
 	prompt
 
 _Route25AfterBattleText6:: ; 94469 (25:4469)
-	text "You came from MT."
-	line "MOON? May I have"
+	text "You came from Mt."
+	line "Moon? May I have"
 	cont "a CLEFAIRY?"
 	done
 
 _Route25BattleText7:: ; 94499 (25:4499)
 	text "I just got down"
-	line "from MT.MOON,"
+	line "from Mt. Moon,"
 	cont "but I'm ready!"
 	done
 
@@ -140,7 +140,7 @@ _Route25EndBattleText9:: ; 94590 (25:4590)
 _Route25AfterBattleText9:: ; 945a2 (25:45a2)
 	text "The trail below"
 	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	cont "Cerulean City."
 	done
 
 _Route25Text11:: ; 945d3 (25:45d3)

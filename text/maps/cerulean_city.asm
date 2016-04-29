@@ -201,7 +201,7 @@ _CeruleanCityText10:: ; a531f (29:531f)
 	done
 
 _CeruleanCityText12:: ; a539a (29:539a)
-	text "CERULEAN CITY"
+	text "Cerulean City"
 	line "A Mysterious,"
 	cont "Blue Aura"
 	cont "Surrounds It"
@@ -223,7 +223,7 @@ _CeruleanCityText16:: ; a541a (29:541a)
 	done
 
 _CeruleanCityText17:: ; a5445 (29:5445)
-	text "CERULEAN CITY"
+	text "Cerulean City"
 	line "#mon GYM"
 	cont "LEADER: MISTY"
 

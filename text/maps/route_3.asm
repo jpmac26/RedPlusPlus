@@ -132,11 +132,11 @@ _Route3EndBattleText8:: ; 8dad8 (23:5ad8)
 
 _Route3AfterBattleText8:: ; 8dae3 (23:5ae3)
 	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	line "foot of Mt. Moon."
 	done
 
 _Route3Text10:: ; 8db07 (23:5b07)
 	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	line "Mt. Moon AHEAD"
 	done
 

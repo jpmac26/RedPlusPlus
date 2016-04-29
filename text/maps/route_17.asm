@@ -181,7 +181,7 @@ _Route17Text13:: ; 916d8 (24:56d8)
 
 _Route17Text14:: ; 91721 (24:5721)
 	text "ROUTE 17"
-	line "CELADON CITY -"
+	line "Celadon City -"
 	cont "FUCHSIA CITY"
 	done
 
