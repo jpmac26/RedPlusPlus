@@ -1,16 +1,16 @@
 _MasterBallDescription::
-	text "The best Ball."
+	text "The best BALL."
 	line "It never misses."
 	prompt
 
 _UltraBallDescription::
-	text "A Ball with a"
+	text "A BALL with a"
 	line "high rate of"
 	cont "success."
 	prompt
 
 _GreatBallDescription::
-	text "A Ball with a"
+	text "A BALL with a"
 	line "decent success"
 	cont "rate."
 	prompt
@@ -41,8 +41,8 @@ _SurfboardDescription::
 	prompt
 
 _SafariBallDescription::
-	text "A Ball used in"
-	line "the Safari Zone."
+	text "A BALL used in"
+	line "the SAFARI ZONE."
 	prompt
 
 _PokedexDescription::
@@ -117,13 +117,13 @@ _SafariBaitDescription::
 	text "Tasty food used"
 	line "used to lure"
 	cont "#MON in the"
-	cont "Safari Zone."
+	cont "SAFARI ZONE."
 	prompt
 
 _SafariRockDescription::
 	text "Makes catching"
 	line "#MON in the"
-	cont "Safari Zone"
+	cont "SAFARI ZONE"
 	cont "easier."
 	prompt
 
@@ -137,7 +137,7 @@ _OldSeaMapDescription::
 _MysticTicketDescription::
 	text "A ticket required"
 	line "to board the ship"
-	cont "to Navel Rock."
+	cont "to NAVEL ROCK."
 	prompt
 
 _EonTicketDescription::
@@ -288,7 +288,7 @@ _SunStoneDescription::
 
 _BikeVoucherDescription::
 	text "Can be redeemed"
-	line "for a Bicycle."
+	line "for a BICYCLE."
 	prompt
 
 _XAccuracyDescription::
@@ -316,12 +316,12 @@ _NuggetDescription::
 	line "gold."
 
 	para "Sell this at a"
-	line "Mart for lots of"
+	line "MART for lots of"
 	cont "money."
 	prompt
 
 _ThiefBallDescription::
-	text "A Ball capable of"
+	text "A BALL capable of"
 	line "stealing #MON"
 	cont "from trainers."
 	prompt
@@ -376,8 +376,8 @@ _DireHitDescription::
 
 _CoinDescription::
 	text "Redeem for prizes"
-	line "at the Game"
-	cont "Corner."
+	line "at the GAME"
+	cont "CORNER."
 	prompt
 
 _FreshWaterDescription::
@@ -397,7 +397,7 @@ _LemonadeDescription::
 
 _SSTicketDescription::
 	text "A ticket to board"
-	line "the S.S. Anne."
+	line "the S.S. ANNE."
 	prompt
 
 _GoldTeethDescription::
@@ -436,12 +436,12 @@ _XSpecialDescription::
 _CoinCaseDescription::
 	text "A case that holds"
 	line "up to 9,999"
-	cont "Coins."
+	cont "COINs."
 	prompt
 
 _OaksParcelDescription::
 	text "A package for"
-	line "Prof. Oak."
+	line "PROF.OAK."
 	prompt
 
 _ItemFinderDescription::
@@ -465,11 +465,11 @@ _PokeFluteDescription::
 
 _LiftKeyDescription::
 	text "An elevator key"
-	line "used in Team"
-	cont "Rocket's hideout."
+	line "used in TEAM"
+	cont "ROCKET's hideout."
 
-	para "It bears the Team"
-	line "Rocket logo."
+	para "It bears the TEAM"
+	line "ROCKET logo."
 	prompt
 
 _EXPShareDescription::
@@ -636,7 +636,7 @@ _LumBerryDescription::
 
 _SwegBerryDescription::
 	text "An extremely rare"
-	line "Berry."
+	line "BERRY."
 
 	para "It increases a"
 	line "#MON's level by"
@@ -806,7 +806,7 @@ _TM29Description::
 
 _TM30Description::
 	text "TM30 -"
-	line "SHADOW Ball"
+	line "SHADOW BALL"
 	prompt
 
 _TM31Description::
@@ -901,17 +901,17 @@ _EmptyDescription::
 	done
 
 _MasterBallDescription_Mart::
-	text "The best Ball."
+	text "The best BALL."
 	line "It never misses."
 	done
 
 _UltraBallDescription_Mart::
-	text "A Ball with high"
+	text "A BALL with high"
 	line "rate of success."
 	done
 
 _GreatBallDescription_Mart::
-	text "A Ball with"
+	text "A BALL with"
 	line "decent success."
 	done
 
@@ -935,8 +935,8 @@ _SurfboardDescription_Mart::
 	done
 
 _SafariBallDescription_Mart::
-	text "A Ball used in"
-	line "the Safari Zone."
+	text "A BALL used in"
+	line "the SAFARI ZONE."
 	done
 
 _PokedexDescription_Mart::
@@ -1001,12 +1001,12 @@ _PotionDescription_Mart::
 
 _SafariBaitDescription_Mart::
 	text "Lures #MON in"
-	line "the Safari Zone."
+	line "the SAFARI ZONE."
 	done
 
 _SafariRockDescription_Mart::
 	text "Angers #MON in"
-	line "the Safari Zone."
+	line "the SAFARI ZONE."
 	done
 
 _OldSeaMapDescription_Mart::
@@ -1016,7 +1016,7 @@ _OldSeaMapDescription_Mart::
 
 _MysticTicketDescription_Mart::
 	text "A ticket to"
-	line "Navel Rock."
+	line "NAVEL ROCK."
 	done
 
 _EonTicketDescription_Mart::
@@ -1117,7 +1117,7 @@ _SunStoneDescription_Mart::
 
 _BikeVoucherDescription_Mart::
 	text "Can be redeemed"
-	line "for a Bicycle."
+	line "for a BICYCLE."
 	done
 
 _XAccuracyDescription_Mart::
@@ -1140,7 +1140,7 @@ _NuggetDescription_Mart::
 	done
 
 _ThiefBallDescription_Mart::
-	text "A Ball capable of"
+	text "A BALL capable of"
 	line "stealing #MON."
 	done
 
@@ -1186,7 +1186,7 @@ _DireHitDescription_Mart::
 
 _CoinDescription_Mart::
 	text "Redeem for prizes"
-	line "at Game Corner."
+	line "at GAME CORNER."
 	done
 
 _FreshWaterDescription_Mart::
@@ -1206,7 +1206,7 @@ _LemonadeDescription_Mart::
 
 _SSTicketDescription_Mart::
 	text "A ticket to board"
-	line "the S.S. Anne."
+	line "the S.S. ANNE."
 	done
 
 _GoldTeethDescription_Mart::
@@ -1236,12 +1236,12 @@ _XSpecialDescription_Mart::
 
 _CoinCaseDescription_Mart::
 	text "A case that holds"
-	line "9,999 Coins."
+	line "9,999 COINs."
 	done
 
 _OaksParcelDescription_Mart::
 	text "A package for"
-	line "Prof. Oak."
+	line "PROF.OAK."
 	done
 
 _ItemFinderDescription_Mart::
@@ -1564,7 +1564,7 @@ _TM29Description_Mart::
 
 _TM30Description_Mart::
 	text "TM30 -"
-	line "SHADOW Ball"
+	line "SHADOW BALL"
 	done
 
 _TM31Description_Mart::
