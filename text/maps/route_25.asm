@@ -9,7 +9,7 @@ _Route25EndBattleText1:: ; 94245 (25:4245)
 	prompt
 
 _Route25AfterBattleText1:: ; 94254 (25:4254)
-	text "All #MON have"
+	text "All #mon have"
 	line "weaknesses. It's"
 	cont "best to raise"
 	cont "different kinds."
@@ -72,7 +72,7 @@ _Route25EndBattleText5:: ; 943dd (25:43dd)
 	prompt
 
 _Route25AfterBattleText5:: ; 943f2 (25:43f2)
-	text "If your #MON"
+	text "If your #mon"
 	line "gets confused or"
 	cont "falls asleep,"
 	cont "switch it!"
@@ -80,7 +80,7 @@ _Route25AfterBattleText5:: ; 943f2 (25:43f2)
 
 _Route25BattleText6:: ; 9442a (25:442a)
 	text "My friend has a"
-	line "cute #MON."
+	line "cute #mon."
 	cont "I'm so jealous!"
 	done
 
@@ -113,7 +113,7 @@ _Route25AfterBattleText7:: ; 944d8 (25:44d8)
 
 _Route25BattleText8:: ; 944fd (25:44fd)
 	text "I'm off to see a"
-	line "#MON collector"
+	line "#mon collector"
 	cont "at the cape!"
 	done
 
@@ -124,7 +124,7 @@ _Route25EndBattleText8:: ; 9452a (25:452a)
 _Route25AfterBattleText8:: ; 94537 (25:4537)
 	text "The collector has"
 	line "many rare kinds"
-	cont "of #MON."
+	cont "of #mon."
 	done
 
 _Route25BattleText9:: ; 94563 (25:4563)

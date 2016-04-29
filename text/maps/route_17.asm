@@ -80,7 +80,7 @@ ENDC
 	done
 
 _Route17BattleText6:: ; 914d9 (24:54d9)
-	text "My #MON won't"
+	text "My #mon won't"
 	line "evolve! Why?"
 	done
 
@@ -89,7 +89,7 @@ _Route17EndBattleText6:: ; 914f4 (24:54f4)
 	prompt
 
 _Route17AfterBattleText6:: ; 914ff (24:54ff)
-	text "Maybe some #MON"
+	text "Maybe some #mon"
 	line "need element"
 	cont "STONEs to evolve."
 	done
@@ -161,10 +161,10 @@ _Route17Text11:: ; 91649 (24:5649)
 _Route17Text12:: ; 91677 (24:5677)
 	text "TRAINER TIPS"
 
-	para "All #MON are"
+	para "All #mon are"
 	line "unique."
 
-	para "Even #MON of"
+	para "Even #mon of"
 	line "the same type and"
 	cont "level grow at"
 	cont "different rates."

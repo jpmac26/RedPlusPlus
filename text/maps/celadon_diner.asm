@@ -6,7 +6,7 @@ _CeladonDinerText1:: ; 9df3f (27:5f3f)
 	done
 
 _CeladonDinerText2:: ; 9df5d (27:5f5d)
-	text "My #MON are"
+	text "My #mon are"
 	line "weak, so I often"
 	cont "have to go to the"
 	cont "DRUG STORE."

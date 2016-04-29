@@ -24,12 +24,12 @@ _CinnabarIslandText3:: ; a6266 (29:6266)
 	done
 
 _CinnabarIslandText6:: ; a6298 (29:6298)
-	text "#MON LAB"
+	text "#mon LAB"
 	done
 
 _CinnabarIslandText7:: ; a62a2 (29:62a2)
 	text "CINNABAR ISLAND"
-	line "#MON GYM"
+	line "#mon GYM"
 	cont "LEADER: BLAINE"
 
 	para "The Hot-Headed"

@@ -15,36 +15,36 @@ _OaksLabText40:: ; 94d79 (25:4d79)
 
 _OaksLabText41:: ; 94dbd (25:4dbd)
 	text "[RIVAL]: My"
-	line "#MON looks a"
+	line "#mon looks a"
 	cont "lot stronger."
 	done
 
 _OaksLabText39:: ; 94ddf (25:4ddf)
 	text "It contains a"
-	line "#MON caught by"
+	line "#mon caught by"
 	cont "PROF. OAK!"
 	done
 
 _OaksLabCharmanderText:: ; 94e06 (25:4e06)
 	text "So! You want the"
-	line "fire #MON,"
+	line "fire #mon,"
 	cont "CHARMANDER?"
 	done
 
 _OaksLabSquirtleText:: ; 94e2f (25:4e2f)
 	text "So! You want the"
-	line "water #MON,"
+	line "water #mon,"
 	cont "SQUIRTLE?"
 	done
 
 _OaksLabBulbasaurText:: ; 94e57 (25:4e57)
 	text "So! You want the"
-	line "plant #MON,"
+	line "plant #mon,"
 	cont "BULBASAUR?"
 	done
 
 _OaksLabMonEnergeticText:: ; 94e80 (25:4e80)
-	text "This #MON is"
+	text "This #mon is"
 	line "really energetic!"
 	prompt
 
@@ -62,21 +62,21 @@ _OaksLabLastMonText:: ; 94eb6 (25:4eb6)
 
 _OaksLabText_1d2f0:: ; 94ed2 (25:4ed2)
 	text "OAK: Now, [PLAYER],"
-	line "which #MON do"
+	line "which #mon do"
 	cont "you want?"
 	done
 
 _OaksLabText_1d2f5:: ; 94ef8 (25:4ef8)
 	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
+	line "#mon appears,"
+	cont "your #mon can"
 	cont "fight against it!"
 	done
 
 _OaksLabText_1d2fa:: ; 94f36 (25:4f36)
 	text "OAK: [PLAYER],"
 	line "raise your young"
-	cont "#MON by making"
+	cont "#mon by making"
 	cont "it fight!"
 	done
 
@@ -84,14 +84,14 @@ _OaksLabDeliverParcelText1:: ; 94f69 (25:4f69)
 	text "OAK: Oh, [PLAYER]!"
 
 	para "How is my old"
-	line "#MON?"
+	line "#mon?"
 
 	para "Well, it seems to"
 	line "like you a lot."
 
 	para "You must be"
 	line "talented as a"
-	cont "#MON trainer!"
+	cont "#mon trainer!"
 
 	para "What? You have"
 	line "something for me?"
@@ -113,7 +113,7 @@ _OaksLabDeliverParcelText2:: ; 9500f (25:500f)
 	done
 
 _OaksLabAroundWorldText:: ; 95045 (25:5045)
-	text "#MON around the"
+	text "#mon around the"
 	line "world wait for"
 	cont "you, [PLAYER]!"
 	done
@@ -121,13 +121,13 @@ _OaksLabAroundWorldText:: ; 95045 (25:5045)
 _OaksLabGivePokeballsText1:: ; 9506d (25:506d)
 	text "OAK: You can't get"
 	line "detailed data on"
-	cont "#MON by just"
+	cont "#mon by just"
 	cont "seeing them."
 
 	para "You must catch"
 	line "them! Use these"
 	cont "to capture wild"
-	cont "#MON."
+	cont "#mon."
 
 	para "[PLAYER] got 5"
 	line "# BALLs!@@"
@@ -135,7 +135,7 @@ _OaksLabGivePokeballsText1:: ; 9506d (25:506d)
 _OaksLabGivePokeballsText2:: ; 950f2 (25:50f2)
 	db $0
 	para "When a wild"
-	line "#MON appears,"
+	line "#mon appears,"
 	cont "it's fair game."
 
 	para "Just throw a #"
@@ -145,7 +145,7 @@ _OaksLabGivePokeballsText2:: ; 950f2 (25:50f2)
 	para "This won't always"
 	line "work, though."
 
-	para "A healthy #MON"
+	para "A healthy #mon"
 	line "could escape. You"
 	cont "have to be lucky!"
 	done
@@ -179,9 +179,9 @@ _OaksLabText8:: ; 95268 (25:5268)
 _OaksLabText_1d340:: ; 9526b (25:526b)
 	text "PROF.OAK is the"
 	line "authority on"
-	cont "#MON!"
+	cont "#mon!"
 
-	para "Many #MON"
+	para "Many #mon"
 	line "trainers hold him"
 	cont "in high regard!"
 	done
@@ -203,7 +203,7 @@ _OaksLabChooseMonText:: ; 952df (25:52df)
 	para "Here, [PLAYER]!"
 
 	para "There are 3"
-	line "#MON here!"
+	line "#mon here!"
 
 	para "Haha!"
 
@@ -212,7 +212,7 @@ _OaksLabChooseMonText:: ; 952df (25:52df)
 
 	para "When I was young,"
 	line "I was a serious"
-	cont "#MON trainer!"
+	cont "#mon trainer!"
 
 	para "In my old age, I"
 	line "have only 3 left,"
@@ -252,7 +252,7 @@ _OaksLabRivalChallengeText:: ; 95477 (25:5477)
 	text "[RIVAL]: Wait"
 	line "[PLAYER]!"
 	cont "Let's check out"
-	cont "our #MON!"
+	cont "our #mon!"
 
 	para "Come on, I'll take"
 	line "you on!"
@@ -262,7 +262,7 @@ _OaksLabText_1d3be:: ; 954b6 (25:54b6)
 	text "WHAT?"
 	line "Unbelievable!"
 	cont "I picked the"
-	cont "wrong #MON!"
+	cont "wrong #mon!"
 	prompt
 
 _OaksLabText_1d3c3:: ; 954e4 (25:54e4)
@@ -273,7 +273,7 @@ _OaksLabText_1d3c3:: ; 954e4 (25:54e4)
 _OaksLabRivalToughenUpText:: ; 95502 (25:5502)
 	text "[RIVAL]: Okay!"
 	line "I'll make my"
-	cont "#MON fight to"
+	cont "#mon fight to"
 	cont "toughen it up!"
 
 	para "[PLAYER]! Gramps!"
@@ -302,7 +302,7 @@ _OaksLabText24:: ; 955a8 (25:55a8)
 
 	para "It automatically"
 	line "records data on"
-	cont "#MON you've"
+	cont "#mon you've"
 	cont "seen or caught!"
 
 	para "It's a hi-tech"
@@ -320,7 +320,7 @@ _OaksLabText25:: ; 9562a (25:562a)
 _OaksLabText26:: ; 95664 (25:5664)
 	text "To make a complete"
 	line "guide on all the"
-	cont "#MON in the"
+	cont "#mon in the"
 	cont "world..."
 
 	para "That was my dream!"
@@ -337,17 +337,17 @@ _OaksLabText26:: ; 95664 (25:5664)
 
 	para "This is a great"
 	line "undertaking in"
-	cont "#MON history!"
+	cont "#mon history!"
 	
 	para "But you can't get"
 	line "detailed data on"
-	cont "#MON by just"
+	cont "#mon by just"
 	cont "seeing them."
 
 	para "You must catch"
 	line "them! Use these"
 	cont "to capture wild"
-	cont "#MON."
+	cont "#mon."
 
 	para "[PLAYER] got 5"
 	line "# BALLs!@@"
@@ -371,7 +371,7 @@ _OaksLabText27:: ; 95741 (25:5741)
 	done
 
 _OaksLabText_1d405:: ; 957eb (25:57eb)
-	text "I study #MON as"
+	text "I study #mon as"
 	line "PROF.OAK's AIDE."
 	done
 
@@ -381,10 +381,10 @@ _OaksLabText_441cc:: ; 9580c (25:580c)
 
 	para "@"
 	TX_NUM $ffdb, 1, 3
-	text " #MON seen"
+	text " #mon seen"
 	line "@"
 	TX_NUM $ffdc, 1, 3
-	text " #MON owned"
+	text " #mon owned"
 
 	para "PROF.OAK's"
 	line "Rating:"
@@ -393,7 +393,7 @@ _OaksLabText_441cc:: ; 9580c (25:580c)
 _OaksLabText_44201:: ; 95858 (25:5858)
 	text "You still have"
 	line "lots to do."
-	cont "Look for #MON"
+	cont "Look for #mon"
 	cont "in grassy areas!"
 	done
 
@@ -406,7 +406,7 @@ _OaksLabText_44206:: ; 95893 (25:5893)
 
 _OaksLabText_4420b:: ; 958cc (25:58cc)
 	text "You still need"
-	line "more #MON!"
+	line "more #mon!"
 	cont "Try to catch"
 	cont "other species!"
 	done
@@ -440,7 +440,7 @@ _OaksLabText_4421f:: ; 959b8 (25:59b8)
 _OaksLabText_44224:: ; 959d9 (25:59d9)
 	text "Very good!"
 	line "Go fish for some"
-	cont "marine #MON!"
+	cont "marine #mon!"
 	done
 
 _OaksLabText_44229:: ; 95a03 (25:5a03)
@@ -465,7 +465,7 @@ _OaksLabText_44233:: ; 95a60 (25:5a60)
 _OaksLabText_44238:: ; 95aa8 (25:5aa8)
 	text "You even have the"
 	line "evolved forms of"
-	cont "#MON! Super!"
+	cont "#mon! Super!"
 	done
 
 _OaksLabText_4423d:: ; 95ad9 (25:5ad9)

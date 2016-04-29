@@ -9,7 +9,7 @@ _CeruleanCityText_19668:: ; a4d2b (29:4d2b)
 	para "I'm doing great!"
 	line "I caught a bunch"
 	cont "of strong and"
-	cont "smart #MON!"
+	cont "smart #mon!"
 
 	para "Here, let me see"
 	line "what you caught,"
@@ -35,7 +35,7 @@ _CeruleanCityText_19677:: ; a4e07 (29:4e07)
 	para "I went to BILL's"
 	line "and got him to"
 	cont "show me his rare"
-	cont "#MON!"
+	cont "#mon!"
 
 	para "That added a lot"
 	line "of pages to my"
@@ -46,7 +46,7 @@ _CeruleanCityText_19677:: ; a4e07 (29:4e07)
 	cont "#MANIAC!"
 
 	para "He invented the"
-	line "#MON Storage"
+	line "#mon Storage"
 	cont "System on PC!"
 
 	para "Since you're using"
@@ -115,7 +115,7 @@ _CeruleanCityText4:: ; a506e (29:506e)
 _CeruleanCityText5:: ; a50ba (29:50ba)
 	text "You're making an"
 	line "encyclopedia on"
-	cont "#MON? That"
+	cont "#mon? That"
 	cont "sounds amusing."
 	done
 
@@ -151,9 +151,9 @@ _CeruleanCityText_1973a:: ; a51ec (29:51ec)
 	line "No! That's wrong!"
 
 	para "It's so hard to"
-	line "control #MON!"
+	line "control #mon!"
 
-	para "Your #MON's"
+	para "Your #mon's"
 	line "obedience depends"
 	cont "on your abilities"
 	cont "as a trainer!"
@@ -191,10 +191,10 @@ _CeruleanCityText9:: ; a52d6 (29:52d6)
 _CeruleanCityText10:: ; a531f (29:531f)
 	text "This is CERULEAN"
 	line "CAVE! Horribly"
-	cont "strong #MON"
+	cont "strong #mon"
 	cont "live in there!"
 
-	para "The #MON LEAGUE"
+	para "The #mon LEAGUE"
 	line "champion is the"
 	cont "only person who"
 	cont "is allowed in!"
@@ -224,7 +224,7 @@ _CeruleanCityText16:: ; a541a (29:541a)
 
 _CeruleanCityText17:: ; a5445 (29:5445)
 	text "CERULEAN CITY"
-	line "#MON GYM"
+	line "#mon GYM"
 	cont "LEADER: MISTY"
 
 	para "The Tomboyish"

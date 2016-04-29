@@ -1,5 +1,5 @@
 _Route12Text1:: ; 9009e (24:409e)
-	text "A sleeping #MON"
+	text "A sleeping #mon"
 	line "blocks the way!"
 	done
 
@@ -46,7 +46,7 @@ _Route12EndBattleText2:: ; 901ab (24:41ab)
 _Route12AfterBattleText2:: ; 901bf (24:41bf)
 	text "With a better ROD,"
 	line "I could catch"
-	cont "better #MON!"
+	cont "better #mon!"
 	done
 
 _Route12BattleText3:: ; 901ee (24:41ee)
@@ -64,7 +64,7 @@ IF DEF(_BLUE)
 ELSE
 	text "I could have made"
 ENDC
-	line "my #MON evolve"
+	line "my #mon evolve"
 	cont "with MOON STONE!"
 	done
 
@@ -85,7 +85,7 @@ _Route12AfterBattleText4:: ; 9026f (24:426f)
 
 _Route12BattleText5:: ; 902a8 (24:42a8)
 	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	line "vs. #mon KID!"
 	done
 
 _Route12EndBattleText5:: ; 902c8 (24:42c8)
@@ -94,7 +94,7 @@ _Route12EndBattleText5:: ; 902c8 (24:42c8)
 
 _Route12AfterBattleText5:: ; 902d3 (24:42d3)
 	text "You beat me at"
-	line "#MON, but I'm"
+	line "#mon, but I'm"
 	cont "good at fishing!"
 	done
 

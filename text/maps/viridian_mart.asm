@@ -1,7 +1,7 @@
 _ViridianPokeCenterText2:: ; 95ba1 (25:5ba1)
 _ViridianPokeCenterText1:: ; 95ba1 (25:5ba1)
 	text "Everything in a"
-	line "#MON CENTER is"
+	line "#mon CENTER is"
 	cont "completely free"
 	cont "to use."
 

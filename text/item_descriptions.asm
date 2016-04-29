@@ -17,7 +17,7 @@ _GreatBallDescription::
 
 _PokeBallDescription::
 	text "An item for"
-	line "catching #MON."
+	line "catching #mon."
 	prompt
 
 _TownMapDescription::
@@ -46,7 +46,7 @@ _SafariBallDescription::
 	prompt
 
 _PokedexDescription::
-	text "A #MON"
+	text "A #mon"
 	line "encyclopedia."
 	prompt
 
@@ -57,72 +57,72 @@ _MoonStoneDescription::
 	cont "evening sky."
 
 	para "It allows certain"
-	line "kinds of #MON"
+	line "kinds of #mon"
 	cont "to evolve."
 	prompt
 
 _AntidoteDescription::
 	text "Cures a poisoned"
-	line "#MON."
+	line "#mon."
 	prompt
 
 _BurnHealDescription::
-	text "Cures a #MON"
+	text "Cures a #mon"
 	line "of its burn."
 	prompt
 
 _IceHealDescription::
 	text "Thaws a frozen"
-	line "#MON."
+	line "#mon."
 	prompt
 
 _AwakeningDescription::
 	text "Wakes a sleeping"
-	line "#MON."
+	line "#mon."
 	prompt
 
 _ParalyzeHealDescription::
-	text "Cures a #MON"
+	text "Cures a #mon"
 	line "of paralysis."
 	prompt
 
 _FullRestoreDescription::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "to its full HP"
 	cont "and restores all"
 	cont "status ailments."
 	prompt
 
 _MaxPotionDescription::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "to its full HP."
 	prompt
 
 _HyperPotionDescription::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 200 HP."
 	prompt
 
 _SuperPotionDescription::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 50 HP."
 	prompt
 
 _PotionDescription::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 20 HP."
 	prompt
 
 _SafariBaitDescription::
 	text "Tasty food used"
 	line "used to lure"
-	cont "#MON in the"
+	cont "#mon in the"
 	cont "Safari Zone."
 	prompt
 
 _SafariRockDescription::
 	text "Makes catching"
-	line "#MON in the"
+	line "#mon in the"
 	cont "Safari Zone"
 	cont "easier."
 	prompt
@@ -170,7 +170,7 @@ _EscapeRopeDescription::
 
 _RepelDescription::
 	text "Repels weak wild"
-	line "#MON for 100"
+	line "#mon for 100"
 	cont "steps."
 	prompt
 
@@ -178,13 +178,13 @@ _OldAmberDescription::
 	text "A stone"
 	line "containing the"
 	cont "genes of an"
-	cont "ancient #MON."
+	cont "ancient #mon."
 	prompt
 
 _FireStoneDescription::
 	text "A peculiar stone"
 	line "that makes"
-	cont "certain #MON"
+	cont "certain #mon"
 	cont "evolve."
 
 	para "The stone has a"
@@ -195,7 +195,7 @@ _FireStoneDescription::
 _ThunderStoneDescription::
 	text "A peculiar stone"
 	line "that makes"
-	cont "certain #MON"
+	cont "certain #mon"
 	cont "evolve."
 
 	para "It has a distinct"
@@ -206,7 +206,7 @@ _ThunderStoneDescription::
 _WaterStoneDescription::
 	text "A peculiar stone"
 	line "that makes"
-	cont "certain #MON"
+	cont "certain #mon"
 	cont "evolve."
 
 	para "It is a clear"
@@ -216,31 +216,31 @@ _WaterStoneDescription::
 _HPUpDescription::
 	text "Raises the base"
 	line "HP stat of a"
-	cont "#MON."
+	cont "#mon."
 	prompt
 
 _ProteinDescription::
 	text "Raises the base"
 	line "ATTACK stat of a"
-	cont "#MON."
+	cont "#mon."
 	prompt
 
 _IronDescription::
 	text "Raises the base"
 	line "DEFENSE stat of a"
-	cont "#MON."
+	cont "#mon."
 	prompt
 
 _CarbosDescription::
 	text "Raises the base"
 	line "SPEED stat of a"
-	cont "#MON."
+	cont "#mon."
 	prompt
 
 _CalciumDescription::
 	text "Raises the base"
 	line "SPECIAL stat of a"
-	cont "#MON."
+	cont "#mon."
 	prompt
 
 _RareCandyDescription::
@@ -249,14 +249,14 @@ _RareCandyDescription::
 	cont "energy."
 
 	para "Raises the level"
-	line "of a #MON by"
+	line "of a #mon by"
 	cont "one."
 	prompt
 
 _DomeFossilDescription::
 	text "A fossil of an"
 	line "ancient, seafloor"
-	cont "dwelling #MON."
+	cont "dwelling #mon."
 
 	para "It appears to be"
 	line "part of a shell."
@@ -265,7 +265,7 @@ _DomeFossilDescription::
 _HelixFossilDescription::
 	text "A fossil of an"
 	line "ancient, seafloor"
-	cont "dwelling #MON."
+	cont "dwelling #mon."
 
 	para "It appears to be"
 	line "part of a"
@@ -279,7 +279,7 @@ _SecretKeyDescription::
 _SunStoneDescription::
 	text "A peculiar stone"
 	line "that makes"
-	cont "certain #MON"
+	cont "certain #mon"
 	cont "evolve."
 
 	para "It is as red as"
@@ -300,7 +300,7 @@ _XAccuracyDescription::
 _LeafStoneDescription::
 	text "A peculiar stone"
 	line "that makes"
-	cont "certain #MON"
+	cont "certain #mon"
 	cont "evolve."
 
 	para "It has a leaf"
@@ -322,7 +322,7 @@ _NuggetDescription::
 
 _ThiefBallDescription::
 	text "A Ball capable of"
-	line "stealing #MON"
+	line "stealing #mon"
 	cont "from trainers."
 	prompt
 
@@ -330,7 +330,7 @@ _PokeDollDescription::
 	text "A doll that can"
 	line "be used to escape"
 	cont "from a wild"
-	cont "#MON."
+	cont "#mon."
 	prompt
 
 _FullHealDescription::
@@ -340,13 +340,13 @@ _FullHealDescription::
 
 _ReviveDescription::
 	text "Revives a fainted"
-	line "#MON to half"
+	line "#mon to half"
 	cont "of its max HP."
 	prompt
 
 _MaxReviveDescription::
 	text "Revives a fainted"
-	line "#MON to its"
+	line "#mon to its"
 	cont "maximum HP."
 	prompt
 
@@ -358,13 +358,13 @@ _GuardSpecDescription::
 
 _SuperRepelDescription::
 	text "Repels weak wild"
-	line "#MON for 200"
+	line "#mon for 200"
 	cont "steps."
 	prompt
 
 _MaxRepelDescription::
 	text "Repels weak wild"
-	line "#MON for 250"
+	line "#mon for 250"
 	cont "steps."
 	prompt
 
@@ -381,17 +381,17 @@ _CoinDescription::
 	prompt
 
 _FreshWaterDescription::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 50 HP."
 	prompt
 
 _SodaPopDescription::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 60 HP."
 	prompt
 
 _LemonadeDescription::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 80 HP."
 	prompt
 
@@ -460,7 +460,7 @@ _PokeFluteDescription::
 	text "A sweet souding"
 	line "flute that wakes"
 	cont "any sleeping"
-	cont "#MON."
+	cont "#mon."
 	prompt
 
 _LiftKeyDescription::
@@ -474,7 +474,7 @@ _LiftKeyDescription::
 
 _EXPShareDescription::
 	text "Gives half EXP"
-	line "to #MON who"
+	line "to #mon who"
 	cont "did not"
 	cont "participate in"
 	cont "battle."
@@ -485,7 +485,7 @@ _OldRodDescription::
 	line "fishing rod."
 
 	para "Use by water to"
-	line "fish for #MON."
+	line "fish for #mon."
 	prompt
 
 _GoodRodDescription::
@@ -494,7 +494,7 @@ _GoodRodDescription::
 	cont "rod."
 
 	para "Use by water to"
-	line "fish for #MON."
+	line "fish for #mon."
 	prompt
 
 _SuperRodDescription::
@@ -502,7 +502,7 @@ _SuperRodDescription::
 	line "tech fishing rod."
 
 	para "Use by water to"
-	line "fish for #MON."
+	line "fish for #mon."
 	prompt
 
 _PPUpDescription::
@@ -523,13 +523,13 @@ _MaxEtherDescription::
 _ElixerDescription::
 	text "Restores 10 PP to"
 	line "all moves of one"
-	cont "#MON."
+	cont "#mon."
 	prompt
 
 _MaxElixerDescription::
 	text "Fully restores PP"
 	line "of all moves of"
-	cont "one #MON."
+	cont "one #mon."
 	prompt
 
 _FloorB2FDescription::
@@ -604,32 +604,32 @@ _LeppaBerryDescription::
 	prompt
 
 _PechaBerryDescription::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Poisoned."
 	prompt
 
 _RawstBerryDescription::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Burned."
 	prompt
 
 _AspearBerryDescription::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Frozen."
 	prompt
 
 _ChestoBerryDescription::
-	text "Wakes up a #MON"
+	text "Wakes up a #mon"
 	line "that is Asleep."
 	prompt
 
 _CheriBerryDescription::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "Paralysis."
 	prompt
 
 _LumBerryDescription::
-	text "Cures #MON of"
+	text "Cures #mon of"
 	line "any negative"
 	cont "status condition."
 	prompt
@@ -639,7 +639,7 @@ _SwegBerryDescription::
 	line "Berry."
 
 	para "It increases a"
-	line "#MON's level by"
+	line "#mon's level by"
 	cont "1 when used."
 	prompt
 
@@ -917,7 +917,7 @@ _GreatBallDescription_Mart::
 
 _PokeBallDescription_Mart::
 	text "An item for"
-	line "catching #MON."
+	line "catching #mon."
 	done
 
 _TownMapDescription_Mart::
@@ -940,37 +940,37 @@ _SafariBallDescription_Mart::
 	done
 
 _PokedexDescription_Mart::
-	text "A #MON"
+	text "A #mon"
 	line "encyclopedia."
 	done
 
 _MoonStoneDescription_Mart::
 	text "Evolves certain"
-	line "#MON."
+	line "#mon."
 	done
 
 _AntidoteDescription_Mart::
 	text "Cures a poisoned"
-	line "#MON."
+	line "#mon."
 	done
 
 _BurnHealDescription_Mart::
-	text "Cures a #MON"
+	text "Cures a #mon"
 	line "of its burn."
 	done
 
 _IceHealDescription_Mart::
 	text "Thaws a frozen"
-	line "#MON."
+	line "#mon."
 	done
 
 _AwakeningDescription_Mart::
 	text "Wakes a sleeping"
-	line "#MON."
+	line "#mon."
 	done
 
 _ParalyzeHealDescription_Mart::
-	text "Cures a #MON"
+	text "Cures a #mon"
 	line "of paralysis."
 	done
 
@@ -980,32 +980,32 @@ _FullRestoreDescription_Mart::
 	done
 
 _MaxPotionDescription_Mart::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "to its full HP."
 	done
 
 _HyperPotionDescription_Mart::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 200 HP."
 	done
 
 _SuperPotionDescription_Mart::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 50 HP."
 	done
 
 _PotionDescription_Mart::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 20 HP."
 	done
 
 _SafariBaitDescription_Mart::
-	text "Lures #MON in"
+	text "Lures #mon in"
 	line "the Safari Zone."
 	done
 
 _SafariRockDescription_Mart::
-	text "Angers #MON in"
+	text "Angers #mon in"
 	line "the Safari Zone."
 	done
 
@@ -1042,7 +1042,7 @@ _EscapeRopeDescription_Mart::
 	done
 
 _RepelDescription_Mart::
-	text "Repels #MON"
+	text "Repels #mon"
 	line "for 100 steps."
 	done
 
@@ -1053,57 +1053,57 @@ _OldAmberDescription_Mart::
 
 _FireStoneDescription_Mart::
 	text "Evolves certain"
-	line "#MON."
+	line "#mon."
 	done
 
 _ThunderStoneDescription_Mart::
 	text "Evolves certain"
-	line "#MON."
+	line "#mon."
 	done
 
 _WaterStoneDescription_Mart::
 	text "Evolves certain"
-	line "#MON."
+	line "#mon."
 	done
 
 _HPUpDescription_Mart::
 	text "Raises the HP of"
-	line "one #MON."
+	line "one #mon."
 	done
 
 _ProteinDescription_Mart::
 	text "Raises ATTACK of"
-	line "one #MON."
+	line "one #mon."
 	done
 
 _IronDescription_Mart::
 	text "Raises DEFENSE of"
-	line "one #MON."
+	line "one #mon."
 	done
 
 _CarbosDescription_Mart::
 	text "Raises SPEED of"
-	line "one #MON."
+	line "one #mon."
 	done
 
 _CalciumDescription_Mart::
 	text "Raises SPECIAL of"
-	line "one #MON."
+	line "one #mon."
 	done
 
 _RareCandyDescription_Mart::
 	text "Raises level of"
-	line "#MON by 1."
+	line "#mon by 1."
 	done
 
 _DomeFossilDescription_Mart::
 	text "A fossil of a"
-	line "seafloor #MON."
+	line "seafloor #mon."
 	done
 
 _HelixFossilDescription_Mart::
 	text "A fossil of a"
-	line "seafloor #MON."
+	line "seafloor #mon."
 	done
 
 _SecretKeyDescription_Mart::
@@ -1112,7 +1112,7 @@ _SecretKeyDescription_Mart::
 
 _SunStoneDescription_Mart::
 	text "Evolves certain"
-	line "#MON."
+	line "#mon."
 	done
 
 _BikeVoucherDescription_Mart::
@@ -1127,7 +1127,7 @@ _XAccuracyDescription_Mart::
 
 _LeafStoneDescription_Mart::
 	text "Evolves certain"
-	line "#MON."
+	line "#mon."
 	done
 
 _CardKeyDescription_Mart::
@@ -1141,7 +1141,7 @@ _NuggetDescription_Mart::
 
 _ThiefBallDescription_Mart::
 	text "A Ball capable of"
-	line "stealing #MON."
+	line "stealing #mon."
 	done
 
 _PokeDollDescription_Mart::
@@ -1156,12 +1156,12 @@ _FullHealDescription_Mart::
 
 _ReviveDescription_Mart::
 	text "Revives a fainted"
-	line "#MON half HP."
+	line "#mon half HP."
 	done
 
 _MaxReviveDescription_Mart::
 	text "Revives a fainted"
-	line "#MON max HP."
+	line "#mon max HP."
 	done
 
 _GuardSpecDescription_Mart::
@@ -1170,12 +1170,12 @@ _GuardSpecDescription_Mart::
 	done
 
 _SuperRepelDescription_Mart::
-	text "Repels #MON"
+	text "Repels #mon"
 	line "for 200 steps."
 	done
 
 _MaxRepelDescription_Mart::
-	text "Repels #MON"
+	text "Repels #mon"
 	line "for 250 steps."
 	done
 
@@ -1190,17 +1190,17 @@ _CoinDescription_Mart::
 	done
 
 _FreshWaterDescription_Mart::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 50 HP."
 	done
 
 _SodaPopDescription_Mart::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 60 HP."
 	done
 
 _LemonadeDescription_Mart::
-	text "Heals a #MON"
+	text "Heals a #mon"
 	line "by 80 HP."
 	done
 
@@ -1256,7 +1256,7 @@ _SilphScopeDescription_Mart::
 
 _PokeFluteDescription_Mart::
 	text "Wakes sleeping"
-	line "#MON."
+	line "#mon."
 	done
 
 _LiftKeyDescription_Mart::
@@ -1380,38 +1380,38 @@ _LeppaBerryDescription_Mart::
 	done
 
 _PechaBerryDescription_Mart::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Poisoned."
 	done
 
 _RawstBerryDescription_Mart::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Burned."
 	done
 
 _AspearBerryDescription_Mart::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Frozen."
 	done
 
 _ChestoBerryDescription_Mart::
-	text "Wakes up a #MON"
+	text "Wakes up a #mon"
 	line "that is Asleep."
 	done
 
 _CheriBerryDescription_Mart::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "Paralysis."
 	done
 
 _LumBerryDescription_Mart::
-	text "Cures #MON of"
+	text "Cures #mon of"
 	line "status conditions"
 	done
 
 _SwegBerryDescription_Mart::
 	text "Raises level of"
-	line "#MON by 1."
+	line "#mon by 1."
 	done
 
 _GoHomeDescription_Mart::

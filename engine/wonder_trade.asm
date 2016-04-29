@@ -298,7 +298,7 @@ CompletedWonderTradeText:
 	
 BannedMonText:
 	text "Error! That"
-	line "#MON is not"
+	line "#mon is not"
 	cont "allowed."
 	
 	para "Please choose"
@@ -307,7 +307,7 @@ BannedMonText:
 AreYouSureText:
 	text "You will not be"
 	line "able to get your"
-	cont "#MON back if"
+	cont "#mon back if"
 	cont "you continue."
 	
 	para "Are you sure you"

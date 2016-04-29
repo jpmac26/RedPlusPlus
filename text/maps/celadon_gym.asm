@@ -13,7 +13,7 @@ _CeladonGymText_48a5e:: ; 9d28f (27:528f)
 
 	para "I teach the art of"
 	line "flower arranging."
-	cont "My #MON are of"
+	cont "My #mon are of"
 	cont "the grass-type."
 
 	para "Oh, I'm sorry, I"
@@ -38,22 +38,22 @@ _CeladonGymText_48a63:: ; 9d3c2 (27:53c2)
 
 _CeladonGymText_48a68:: ; 9d418 (27:5418)
 	text "You are cataloging"
-	line "#MON? I must"
+	line "#mon? I must"
 	cont "say I'm impressed."
 
 	para "I would never"
-	line "collect #MON"
+	line "collect #mon"
 	cont "if they were"
 	cont "unattractive."
 	done
 
 _CeladonGymText9:: ; 9d481 (27:5481)
 	text "The RAINBOWBADGE"
-	line "will make #MON"
+	line "will make #mon"
 	cont "up to L50 obey."
 
 	para "It also allows"
-	line "#MON to use"
+	line "#mon to use"
 	cont "STRENGTH in and"
 	cont "out of battle."
 
@@ -75,7 +75,7 @@ _TM21ExplanationText:: ; 9d520 (27:5520)
 	para "Half the damage"
 	line "it inflicts is"
 	cont "drained to heal"
-	cont "your #MON!"
+	cont "your #mon!"
 	done
 
 _TM21NoRoomText:: ; 9d576 (27:5576)
@@ -110,13 +110,13 @@ _CeladonGymEndBattleText3:: ; 9d606 (27:5606)
 	prompt
 
 _CeladonGymAfterBattleText3:: ; 9d612 (27:5612)
-	text "Grass-type #MON"
+	text "Grass-type #mon"
 	line "are tough against"
 	cont "the water-type!"
 
 	para "They also have an"
 	line "edge on rock and"
-	cont "ground #MON!"
+	cont "ground #mon!"
 	done
 
 _CeladonGymBattleText4:: ; 9d675 (27:5675)
@@ -136,7 +136,7 @@ _CeladonGymAfterBattleText4:: ; 9d69f (27:569f)
 
 _CeladonGymBattleText5:: ; 9d6d1 (27:56d1)
 	text "Look at my grass"
-	line "#MON!"
+	line "#mon!"
 
 	para "They're so easy"
 	line "to raise!"
@@ -148,7 +148,7 @@ _CeladonGymEndBattleText5:: ; 9d702 (27:5702)
 
 _CeladonGymAfterBattleText5:: ; 9d707 (27:5707)
 	text "We only use grass-"
-	line "type #MON at"
+	line "type #mon at"
 	cont "our GYM!"
 
 	para "We also use them"
@@ -159,7 +159,7 @@ _CeladonGymAfterBattleText5:: ; 9d707 (27:5707)
 _CeladonGymBattleText6:: ; 9d762 (27:5762)
 	text "Don't bring any"
 	line "bugs or fire"
-	cont "#MON in here!"
+	cont "#mon in here!"
 	done
 
 _CeladonGymEndBattleText6:: ; 9d78d (27:578d)
@@ -176,7 +176,7 @@ _CeladonGymAfterBattleText6:: ; 9d797 (27:5797)
 _CeladonGymBattleText7:: ; 9d7d7 (27:57d7)
 	text "Pleased to meet"
 	line "you. My hobby is"
-	cont "#MON training."
+	cont "#mon training."
 	done
 
 _CeladonGymEndBattleText7:: ; 9d808 (27:5808)
@@ -205,7 +205,7 @@ _CeladonGymEndBattleText8:: ; 9d897 (27:5897)
 
 _CeladonGymAfterBattleText8:: ; 9d8a4 (27:58a4)
 	text "I didn't bring my"
-	line "best #MON!"
+	line "best #mon!"
 
 	para "Wait 'til next"
 	line "time!"

@@ -33,7 +33,7 @@ _Museum1FText_5c233:: ; 965f1 (25:65f1)
 	text "There's a lab"
 	line "somewhere trying"
 	cont "to resurrect"
-	cont "ancient #MON"
+	cont "ancient #mon"
 	cont "from AMBER."
 	done
 
@@ -62,10 +62,10 @@ _Museum1FText_5c28e:: ; 966b4 (25:66b4)
 	text "Ssh! I think that"
 	line "this chunk of"
 	cont "AMBER contains"
-	cont "#MON DNA!"
+	cont "#mon DNA!"
 
 	para "It would be great"
-	line "if #MON could"
+	line "if #mon could"
 	cont "be resurrected"
 	cont "from it!"
 
@@ -76,7 +76,7 @@ _Museum1FText_5c28e:: ; 966b4 (25:66b4)
 	line "to ask!"
 
 	para "Take this to a"
-	line "#MON LAB and"
+	line "#mon LAB and"
 	cont "get it examined!"
 	prompt
 
@@ -98,7 +98,7 @@ _Museum1FText_5c2ad:: ; 967e8 (25:67e8)
 	text "We are proud of 2"
 	line "fossils of very"
 	cont "rare, prehistoric"
-	cont "#MON!"
+	cont "#mon!"
 	done
 
 _Museum1FText_5c2bc:: ; 96823 (25:6823)

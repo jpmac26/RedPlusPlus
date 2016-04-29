@@ -39,32 +39,32 @@ _LeppaBerryText::
 	prompt
 
 _PechaBerryText::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Poisoned."
 	prompt
 
 _RawstBerryText::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Burned."
 	prompt
 
 _AspearBerryText::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "being Frozen."
 	prompt
 
 _ChestoBerryText::
-	text "Wakes up a #MON"
+	text "Wakes up a #mon"
 	line "that is Asleep."
 	prompt
 
 _CheriBerryText::
-	text "Cures a #MON of"
+	text "Cures a #mon of"
 	line "Paralysis."
 	prompt
 
 _LumBerryText::
-    text "Cures a #MON of"
+    text "Cures a #mon of"
     line "any negative"
     cont "status condition."
     prompt
@@ -74,6 +74,6 @@ _SwegBerryText::
     line "BERRY."
     
     para "It increases a"
-    line "#MON's level by"
+    line "#mon's level by"
     cont "1 when used."
     prompt

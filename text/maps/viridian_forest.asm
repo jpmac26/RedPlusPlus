@@ -3,12 +3,12 @@ _ViridianForestText1:: ; 8031d (20:431d)
 	line "some friends!"
 
 	para "They're out for"
-	line "#MON fights!"
+	line "#mon fights!"
 	done
 
 _ViridianForestBattleText1:: ; 80359 (20:4359)
 	text "Hey! You have"
-	line "#MON! Come on!"
+	line "#mon! Come on!"
 	cont "Let's battle 'em!"
 	done
 
@@ -26,13 +26,13 @@ _ViridianFrstAfterBattleText1:: ; 803a2 (20:43a2)
 _ViridianForestBattleText2:: ; 803c3 (20:43c3)
 	text "Yo! You can't jam"
 	line "out if you're a"
-	cont "#MON trainer!"
+	cont "#mon trainer!"
 	done
 
 _ViridianForestEndBattleText2:: ; 803f2 (20:43f2)
 	text "Huh?"
 	line "I ran out of"
-	cont "#MON!"
+	cont "#mon!"
 	prompt
 
 _ViridianFrstAfterBattleText2:: ; 8040b (20:440b)
@@ -65,7 +65,7 @@ _ViridianFrstAfterBattleText3:: ; 80475 (20:4475)
 _ViridianForestText8:: ; 804c7 (20:44c7)
 	text "I ran out of #"
 	line "BALLs to catch"
-	cont "#MON with!"
+	cont "#mon with!"
 
 	para "You should carry"
 	line "extras!"
@@ -83,7 +83,7 @@ _ViridianForestText9:: ; 8050a (20:450a)
 _ViridianForestText10:: ; 80553 (20:4553)
 	text "For poison, use"
 	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	cont "at #mon MARTs!"
 	done
 
 _ViridianForestText11:: ; 80584 (20:4584)
@@ -99,16 +99,16 @@ _ViridianForestText12:: ; 805c6 (20:45c6)
 	text "TRAINER TIPS"
 
 	para "No stealing of"
-	line "#MON from"
+	line "#mon from"
 	cont "other trainers!"
 	cont "Catch only wild"
-	cont "#MON!"
+	cont "#mon!"
 	done
 
 _ViridianForestText13:: ; 80613 (20:4613)
 	text "TRAINER TIPS"
 
-	para "Weaken #MON"
+	para "Weaken #mon"
 	line "before attempting"
 	cont "capture!"
 

@@ -9,7 +9,7 @@ _OakWalksUpText::
     cont "like you do."
 
 	para "Anyway, you need"
-	line "your own #MON"
+	line "your own #mon"
 	cont "for protection."
 
 	para "Here, come with"
@@ -18,7 +18,7 @@ _OakWalksUpText::
 
 _PalletTownText2::
 	text "I'm raising"
-	line "#MON too!"
+	line "#mon too!"
 
 	para "When they get"
 	line "strong, they can"
@@ -31,12 +31,12 @@ _PalletTownText3::
 
 	para "You can now store"
 	line "and recall items"
-	cont "and #MON as"
+	cont "and #mon as"
 	cont "data via PC!"
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
+	text "OAK #mon"
 	line "RESEARCH LAB"
 	done
 

@@ -121,7 +121,7 @@ CredTaNakamura: ; 74507 (1d:4507)
 CredYuda: ; 74517 (1d:4517)
 	db -6, "MASAMITSU YUDA@"
 CredMon: ; 74527 (1d:4527)
-	db -3, "#MON@"
+	db -3, "#mon@"
 CredDirector: ; 7452d (1d:452d)
 	db -3, "DIRECTOR@"
 CredProgrammers: ; 74537 (1d:4537)

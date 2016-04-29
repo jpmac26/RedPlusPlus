@@ -3,13 +3,13 @@ _CeruleanGymText_5c7be:: ; 989c1 (26:49c1)
 	line "face!"
 
 	para "What's your policy"
-	line "on #MON? What"
+	line "on #mon? What"
 	cont "is your approach?"
 
 	para "My policy is an"
 	line "all-out offensive"
 	cont "with water-type"
-	cont "#MON!"
+	cont "#mon!"
 
 	para "MISTY, the world-"
 	line "famous beauty, is"
@@ -24,12 +24,12 @@ _CeruleanGymText_5c7c3:: ; 98a7b (26:4a7b)
 	line "WATER PULSE!"
 
 	para "Use it on an"
-	line "aquatic #MON!"
+	line "aquatic #mon!"
 	done
 
 _CeruleanGymText_5c7c8:: ; 98ab0 (26:4ab0)
 	text "The CASCADEBADGE"
-	line "makes all #MON"
+	line "makes all #mon"
 	cont "up to L30 obey!"
 
 	para "That includes"
@@ -112,11 +112,11 @@ _CeruleanGymText_5c82a:: ; 98d0a (26:4d0a)
 
 	para "The LEADER, MISTY,"
 	line "is a pro who uses"
-	cont "water #MON!"
+	cont "water #mon!"
 
 	para "You can drain all"
 	line "their water with"
-	cont "plant #MON!"
+	cont "plant #mon!"
 
 	para "Or, zap them with"
 	line "electricity!"

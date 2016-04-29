@@ -28,7 +28,7 @@ _GameDesignerText:: ; 9d03a (27:503a)
 	line "back here once"
 	cont "you've caught at"
 	cont "least 150 kinds"
-	cont "of #MON."
+	cont "of #mon."
 
 	para "I'll give you"
 	line "something I think"
@@ -43,7 +43,7 @@ _GameDesignerGiveTicketText::
 	text "Ah! I see you've"
 	line "caught at least"
 	cont "150 kinds of"
-	cont "#MON now."
+	cont "#mon now."
 	
 	para "I want you to"
 	line "have this."

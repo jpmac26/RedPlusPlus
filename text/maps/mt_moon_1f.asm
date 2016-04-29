@@ -54,13 +54,13 @@ _MtMoon1BattleText5:: ; 807a5 (20:47a5)
 	done
 
 _MtMoon1EndBattleText5:: ; 807c1 (20:47c1)
-	text "My #MON won't"
+	text "My #mon won't"
 	line "do!"
 	prompt
 
 _MtMoon1AfterBattleText5:: ; 807d3 (20:47d3)
 	text "I have to find"
-	line "stronger #MON."
+	line "stronger #mon."
 	done
 
 _MtMoon1BattleText6:: ; 807f2 (20:47f2)

@@ -98,7 +98,7 @@ _MtMoon3EndBattleText5:: ; 80c39 (20:4c39)
 	prompt
 
 _MtMoon3AfterBattleText5:: ; 80c46 (20:4c46)
-	text "#MON lived"
+	text "#mon lived"
 	line "here long before"
 	cont "people came."
 	done

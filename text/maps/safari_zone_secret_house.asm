@@ -23,7 +23,7 @@ _ReceivedTM15Text:: ; 85943 (21:5943)
 _TM15ExplanationText:: ; 85957 (21:5957)
 	text "HM03 is SURF!"
 
-	para "#MON will be"
+	para "#mon will be"
 	line "able to ferry you"
 	cont "across water!"
 

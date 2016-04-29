@@ -1,5 +1,5 @@
 _ViridianForestExitText1:: ; 8a6fd (22:66fd)
-	text "Many #MON live"
+	text "Many #mon live"
 	line "only in forests "
 	cont "and caves."
 

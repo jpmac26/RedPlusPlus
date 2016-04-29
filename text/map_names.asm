@@ -82,11 +82,11 @@ SeaCottageName: ; 71612 (1c:5612)
 SSAnneName: ; 7161e (1c:561e)
 	db "S.S. Anne@"
 PokemonLeagueName: ; 71627 (1c:5627)
-	db "#MON League@"
+	db "#mon League@"
 UndergroundPathName: ; 71633 (1c:5633)
 	db "Underground Path@"
 PokemonTowerName: ; 71644 (1c:5644)
-	db "#MON Tower@"
+	db "#mon Tower@"
 SeafoamIslandsName: ; 7164f (1c:564f)
 	db "Seafoam Islands@"
 VictoryRoadName: ; 7165f (1c:565f)
@@ -98,7 +98,7 @@ RocketHQName: ; 7167a (1c:567a)
 SilphCoName: ; 71684 (1c:5684)
 	db "Silph Co.@"
 PokemonMansionName: ; 7168e (1c:568e)
-	db "#MON Mansion@"
+	db "#mon Mansion@"
 SafariZoneName: ; 71698 (1c:5698)
 	db "Safari Zone@"
 CeruleanCaveName: ; 716a4 (1c:56a4)

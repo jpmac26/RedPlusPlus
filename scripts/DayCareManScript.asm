@@ -121,7 +121,7 @@ DayCareManText2:
     line "had an EGG!"
     
     para "Do you want the"
-    line "#MON that"
+    line "#mon that"
     cont "hatched from it?@@"
     
 DayCareManText3:
@@ -139,7 +139,7 @@ DayCareManText4:
     
 DayCareManText5:
     text "I don't think that"
-    line "#MON can breed"
+    line "#mon can breed"
     cont "with my DITTO,"
     cont "though.@@"
     

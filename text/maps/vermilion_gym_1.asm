@@ -12,7 +12,7 @@ _VermilionGymText_5cb6d:: ; 9aaa5 (26:6aa5)
 	cont "on with your puny"
 	cont "power!"
 
-	para "A #MON battle"
+	para "A #mon battle"
 	line "is war! I'll show"
 	cont "you, civilian!"
 

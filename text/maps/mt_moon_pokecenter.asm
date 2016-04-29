@@ -3,7 +3,7 @@ _MtMoonPokecenterText1:: ; 8a8eb (22:68eb)
 	line "set in my belt."
 
 	para "At most, you can"
-	line "carry 6 #MON."
+	line "carry 6 #mon."
 	done
 
 _MtMoonPokecenterText3:: ; 8a929 (22:6929)

@@ -9,7 +9,7 @@ _LanceBeforeBattleText:: ; 85d3c (21:5d3c)
 
 	para "You know that"
 	line "dragons are"
-	cont "mythical #MON!"
+	cont "mythical #mon!"
 
 	para "They're hard to"
 	line "catch and raise,"
@@ -32,7 +32,7 @@ _LanceEndBattleText:: ; 85e64 (21:5e64)
 
 	para "I hate to admit"
 	line "it, but you are a"
-	cont "#MON master!"
+	cont "#mon master!"
 	prompt
 
 _LanceAfterBattleText:: ; 85e9e (21:5e9e)
@@ -42,7 +42,7 @@ _LanceAfterBattleText:: ; 85e9e (21:5e9e)
 	cont "you, [PLAYER]!"
 
 	para "You are now the"
-	line "#MON LEAGUE"
+	line "#mon LEAGUE"
 	cont "champion!"
 
 	para "...Or, you would"
@@ -59,6 +59,6 @@ _LanceAfterBattleText:: ; 85e9e (21:5e9e)
 	cont "FOUR before you!"
 
 	para "He is the real"
-	line "#MON LEAGUE"
+	line "#mon LEAGUE"
 	cont "champion!@@"
 

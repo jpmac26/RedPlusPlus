@@ -45,7 +45,7 @@ _HM03ExplanationText::
 
 	para "It's a powerful"
 	line "move, but your"
-	cont "#MON has to"
+	cont "#mon has to"
 	cont "recharge after"
 	cont "using it."
 	done

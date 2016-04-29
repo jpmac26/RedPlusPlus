@@ -68,7 +68,7 @@ _Route21AfterBattleText4:: ; 920cc (24:60cc)
 
 _Route21BattleText5:: ; 920ff (24:60ff)
 	text "I caught all my"
-	line "#MON at sea!"
+	line "#mon at sea!"
 	done
 
 _Route21EndBattleText5:: ; 9211d (24:611d)
@@ -78,7 +78,7 @@ _Route21EndBattleText5:: ; 9211d (24:611d)
 
 _Route21AfterBattleText5:: ; 9212d (24:612d)
 	text "Where'd you catch"
-	line "your #MON?"
+	line "your #mon?"
 	done
 
 _Route21BattleText6:: ; 9214a (24:614a)

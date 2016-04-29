@@ -1,6 +1,6 @@
 _Route1ViridianMartSampleText:: ; 8d5bf (23:55bf)
 	text "Hi! I work at a"
-	line "#MON MART."
+	line "#mon MART."
 
 	para "It's a convenient"
 	line "shop, so please"
@@ -21,7 +21,7 @@ _Route1Text_1cae8:: ; 8d643 (23:5643)
 _Route1Text_1caee:: ; 8d652 (23:5652)
 	text "We also carry"
 	line "# BALLs for"
-	cont "catching #MON!"
+	cont "catching #mon!"
 	done
 
 _Route1Text_1caf3:: ; 8d67c (23:567c)

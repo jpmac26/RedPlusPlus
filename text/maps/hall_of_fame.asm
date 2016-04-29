@@ -4,15 +4,15 @@ _HallofFameRoomText1:: ; 85fb5 (21:5fb5)
 	cont "[PLAYER]!"
 
 	para "This floor is the"
-	line "#MON HALL OF"
+	line "#mon HALL OF"
 	cont "FAME!"
 
-	para "#MON LEAGUE"
+	para "#mon LEAGUE"
 	line "champions are"
 	cont "honored for their"
 	cont "exploits here!"
 
-	para "Their #MON are"
+	para "Their #mon are"
 	line "also recorded in"
 	cont "the HALL OF FAME!"
 
@@ -23,7 +23,7 @@ _HallofFameRoomText1:: ; 85fb5 (21:5fb5)
 
 	para "Congratulations,"
 	line "[PLAYER], you and"
-	cont "your #MON are"
+	cont "your #mon are"
 	cont "HALL OF FAMERs!"
 	done
 

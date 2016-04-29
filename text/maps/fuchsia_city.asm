@@ -1,7 +1,7 @@
 _FuchsiaCityText1:: ; a5e9c (29:5e9c)
 	text "Did you try the"
 	line "SAFARI GAME? Some"
-	cont "#MON can only"
+	cont "#mon can only"
 	cont "be caught there."
 	done
 
@@ -12,7 +12,7 @@ _FuchsiaCityText2:: ; a5ede (29:5ede)
 
 	para "Out back is the"
 	line "SAFARI GAME for"
-	cont "catching #MON."
+	cont "catching #mon."
 	done
 
 _FuchsiaCityText3:: ; a5f3e (29:5f3e)
@@ -24,7 +24,7 @@ _FuchsiaCityText3:: ; a5f3e (29:5f3e)
 _FuchsiaCityText4:: ; a5f6b (29:5f6b)
 	text "That item ball in"
 	line "there is really a"
-	cont "#MON."
+	cont "#mon."
 	done
 
 _FuchsiaCityText5:: ; a5f96 (29:5f96)
@@ -39,7 +39,7 @@ _FuchsiaCityText11:: ; a5f99 (29:5f99)
 
 _FuchsiaCityText13:: ; a5fc1 (29:5fc1)
 	text "SAFARI GAME"
-	line "#MON-U-CATCH!"
+	line "#mon-U-CATCH!"
 	done
 
 _FuchsiaCityText16:: ; a5fdc (29:5fdc)
@@ -48,13 +48,13 @@ _FuchsiaCityText16:: ; a5fdc (29:5fdc)
 	done
 
 _FuchsiaCityText17:: ; a5ff6 (29:5ff6)
-	text "#MON PARADISE"
+	text "#mon PARADISE"
 	line "SAFARI ZONE"
 	done
 
 _FuchsiaCityText18:: ; a6011 (29:6011)
 	text "FUCHSIA CITY"
-	line "#MON GYM"
+	line "#mon GYM"
 	cont "LEADER: KOGA"
 
 	para "The Poisonous"
@@ -78,7 +78,7 @@ _FuchsiaCityVoltorbText:: ; a6081 (29:6081)
 _FuchsiaCityKangaskhanText:: ; a60ac (29:60ac)
 	text "Name: KANGASKHAN"
 
-	para "A maternal #MON"
+	para "A maternal #mon"
 	line "that raises its"
 	cont "young in a pouch"
 	cont "on its belly."
@@ -101,7 +101,7 @@ _FuchsiaCityLaprasText:: ; a612c (29:612c)
 _FuchsiaCityOmanyteText:: ; a6157 (29:6157)
 	text "Name: OMANYTE"
 
-	para "A #MON that"
+	para "A #mon that"
 	line "was resurrected"
 	cont "from a fossil."
 	prompt
@@ -109,7 +109,7 @@ _FuchsiaCityOmanyteText:: ; a6157 (29:6157)
 _FuchsiaCityKabutoText:: ; a6191 (29:6191)
 	text "Name: KABUTO"
 
-	para "A #MON that"
+	para "A #mon that"
 	line "was resurrected"
 	cont "from a fossil."
 	prompt

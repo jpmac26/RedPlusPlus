@@ -1,5 +1,5 @@
 _Route9BattleText1:: ; 8e291 (23:6291)
-	text "You have #MON"
+	text "You have #mon"
 	line "with you!"
 	cont "You're mine!"
 	done
@@ -17,7 +17,7 @@ _Route9AfterBattleText1:: ; 8e2c8 (23:62c8)
 _Route9BattleText2:: ; 8e2ff (23:62ff)
 	text "Who's that walking"
 	line "with those good"
-	cont "looking #MON?"
+	cont "looking #mon?"
 	done
 
 _Route9EndBattleText2:: ; 8e330 (23:6330)
@@ -70,7 +70,7 @@ _Route9EndBattleText5:: ; 8e433 (23:6433)
 	line "eh!"
 
 	para "Oh wait. I'm out"
-	line "of #MON!"
+	line "of #mon!"
 	prompt
 
 _Route9AfterBattleText5:: ; 8e461 (23:6461)
@@ -97,7 +97,7 @@ _Route9AfterBattleText6:: ; 8e4c3 (23:64c3)
 _Route9BattleText7:: ; 8e4e2 (23:64e2)
 	text "I got up early"
 	line "every day to"
-	cont "raise my #MON"
+	cont "raise my #mon"
 	cont "from cocoons!"
 	done
 
@@ -132,7 +132,7 @@ _Route9AfterBattleText8:: ; 8e5aa (23:65aa)
 
 _Route9BattleText9:: ; 8e5d2 (23:65d2)
 	text "Go, my super bug"
-	line "#MON!"
+	line "#mon!"
 	done
 
 _Route9EndBattleText9:: ; 8e5ea (23:65ea)
@@ -141,7 +141,7 @@ _Route9EndBattleText9:: ; 8e5ea (23:65ea)
 
 _Route9AfterBattleText9:: ; 8e5f6 (23:65f6)
 	text "If you don't like"
-	line "bug #MON, you"
+	line "bug #mon, you"
 	cont "bug me!"
 	done
 

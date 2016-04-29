@@ -105,7 +105,7 @@ _CeladonCityText11:: ; a5d18 (29:5d18)
 
 _CeladonCityText13:: ; a5d41 (29:5d41)
 	text "CELADON CITY"
-	line "#MON GYM"
+	line "#mon GYM"
 	cont "LEADER: ERIKA"
 
 	para "The Nature-Loving"
@@ -126,7 +126,7 @@ _CeladonCityText16:: ; a5dbf (29:5dbf)
 	text "TRAINER TIPS"
 
 	para "GUARD SPEC."
-	line "protects #MON"
+	line "protects #mon"
 	cont "against SPECIAL"
 	cont "attacks!"
 

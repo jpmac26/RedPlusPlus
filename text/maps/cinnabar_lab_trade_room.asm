@@ -2,7 +2,7 @@ _TalkAboutBirds::
 	text "Oh, hello. I'm"
 	line "studying the"
 	cont "LEGENDARY BIRD"
-	cont "#MON."
+	cont "#mon."
 	
 	para "Have you seen"
 	line "them?"

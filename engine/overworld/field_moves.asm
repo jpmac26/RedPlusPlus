@@ -323,7 +323,7 @@ WaterIsCalmTxt:
 	cont "use SURF?@@"
 
 MightBeHiding:
-	text "A #MON might"
+	text "A #mon might"
 	line "be hiding in this"
 	cont "tree."
 

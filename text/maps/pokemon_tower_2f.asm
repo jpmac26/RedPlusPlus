@@ -2,7 +2,7 @@ _PokemonTower2Text_6062d:: ; 9957b (26:557b)
 	text "[RIVAL]: Hey,"
 	line "[PLAYER]! What"
 	cont "brings you here?"
-	cont "Your #MON"
+	cont "Your #mon"
 	cont "don't look dead!"
 
 	para "I can at least"
@@ -21,7 +21,7 @@ _PokemonTower2Text_60632:: ; 995e5 (26:55e5)
 _PokemonTower2Text_60637:: ; 99614 (26:5614)
 	text "[RIVAL]: Well,"
 	line "look at all your"
-	cont "wimpy #MON!"
+	cont "wimpy #mon!"
 
 	para "Toughen them up a"
 	line "bit more!"

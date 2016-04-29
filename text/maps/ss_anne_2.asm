@@ -36,7 +36,7 @@ _SSAnneRivalDefeatedText:: ; 80e57 (20:4e57)
 
 	para "At least you're"
 	line "raising your"
-	cont "#MON!"
+	cont "#mon!"
 	prompt
 
 _SSAnneRivalWonText:: ; 80e81 (20:4e81)
