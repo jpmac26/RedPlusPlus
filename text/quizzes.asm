@@ -1,5 +1,5 @@
 _CinnabarGymQuizIntroText:: ; 887b7 (22:47b7)
-	text "#MON Quiz!"
+	text "#mon Quiz!"
 
 	para "Get it right and"
 	line "the door opens!"

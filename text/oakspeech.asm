@@ -5,11 +5,11 @@ _OakSpeechText1::
 
 	para "You've probably"
 	line "heard of me, I'm"
-	cont "PROF. OAK."
+	cont "Prof. Oak."
 	
 	para "This hack was"
 	line "created by"
-	cont "ROMHACKER MATEO."
+	cont "Romhacker Mateo."
 	
 	para "It has a lot of"
 	line "new features that"
@@ -19,7 +19,7 @@ _OakSpeechText1::
 _OakSpeechText2A::
 	text "As you can see,"
 	line "there are several"
-	cont "new #MON, too.@@"
+	cont "new #mon, too.@@"
 
 _OakSpeechText2B::
 	text $51,"Most are new"
@@ -56,12 +56,12 @@ _OakSpeechText3::
 	text "[PLAYER]!"
 
 	para "Your very own"
-	line "#MON legend is"
+	line "#mon legend is"
 	cont "about to unfold!"
 
 	para "A world of dreams"
 	line "and adventures"
-	cont "with #MON"
+	cont "with #mon"
 	cont "awaits...Let's go!"
 	done
 
@@ -72,7 +72,7 @@ _BoyGirlText::
 	
 _ShouldMonsObeyText::
 	text "Should traded"
-	line "#MON behave"
+	line "#mon behave"
 	cont "like caught"
-	cont "#MON?"
+	cont "#mon?"
 	done

@@ -1,5 +1,5 @@
 _ScizorDexEntry::
-	text "This #MON's"
+	text "This #mon's"
 	next "pincers, which"
 	next "contain steel, can"
 
@@ -72,13 +72,13 @@ _BlisseyDexEntry::
 	next "passionate nature."
 	next "If it sees a sick"
 
-	page "#MON, it will"
+	page "#mon, it will"
 	next "nurse the sufferer"
 	next "back to health"
 	dex
 	
 _Porygon2DexEntry::
-	text "A manmade #MON"
+	text "A manmade #mon"
 	next "that evolved from"
 	next "new technology."
 
@@ -268,7 +268,7 @@ _LanturnDexEntry::
 	dex
 
 _SlugmaDexEntry::
-    text "These #MON"
+    text "These #mon"
     next "gather together in"
     next "areas that are"
     
@@ -309,7 +309,7 @@ _LatiasDexEntry::
     
 _LatiosDexEntry::
     text "A highly intelli"
-    next "gent #MON. By"
+    next "gent #mon. By"
     next "folding back its"
     
     page "wings in flight,"
@@ -404,7 +404,7 @@ _MimeJrDexEntry::
     
     page "foe cannot take"
     next "its eyes off this"
-    next "#MON"
+    next "#mon"
     dex
     
 _HappinyDexEntry::

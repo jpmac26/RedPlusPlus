@@ -149,7 +149,7 @@ Char53:: ; 19ff (0:19ff) ; rival’s name
 	ld de,W_RIVALNAME
 	jr FinishDTE
 
-Char5D:: ; 1a05 (0:1a05) ; TRAINER
+Char5D:: ; 1a05 (0:1a05) ; Trainer
 	push de
 	ld de,Char5DText
 	jr FinishDTE
@@ -164,12 +164,12 @@ Char5B:: ; 1a11 (0:1a11) ; PC
 	ld de,Char5BText
 	jr FinishDTE
 
-Char5E:: ; 1a17 (0:1a17) ; ROCKET
+Char5E:: ; 1a17 (0:1a17) ; Rocket
 	push de
 	ld de,Char5EText
 	jr FinishDTE
 
-Char54:: ; 1a1d (0:1a1d) ; POKé
+Char54:: ; 1a1d (0:1a1d) ; Poké
 	push de
 	ld de,Char54Text
 	jr FinishDTE
@@ -227,13 +227,13 @@ FinishDTE:: ; 1a4b (0:1a4b)
 Char5CText:: ; 1a55 (0:1a55)
 	db "TM@"
 Char5DText:: ; 1a58 (0:1a58)
-	db "TRAINER@"
+	db "Trainer@"
 Char5BText:: ; 1a60 (0:1a60)
 	db "PC@"
 Char5EText:: ; 1a63 (0:1a63)
-	db "ROCKET@"
+	db "Rocket@"
 Char54Text:: ; 1a6a (0:1a6a)
-	db "POKé@"
+	db "Poké@"
 Char56Text:: ; 1a6f (0:1a6f)
 	db "……@"
 Char5AText:: ; 1a72 (0:1a72)
