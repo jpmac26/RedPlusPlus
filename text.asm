@@ -986,7 +986,7 @@ _ElevatorText:: ; 895fb (22:55fb)
 	done
 
 _TownMapText:: ; 89611 (22:5611)
-	text "A TOWN MAP.@@"
+	text "A Town Map.@@"
 
 _PokemonStuffText:: ; 8961f (22:561f)
 	text "Wow! Tons of"
@@ -997,7 +997,7 @@ _OutOfSafariBallsText:: ; 89639 (22:5639)
 	text "PA: Ding-dong!"
 
 	para "You are out of"
-	line "SAFARI Balls!"
+	line "Safari Balls!"
 	prompt
 
 _WildRanText:: ; 89666 (22:5666)
@@ -1107,8 +1107,8 @@ _TrainerSentOutText:: ; 897b4 (22:57b4)
 	done
 
 _NoWillText:: ; 897c9 (22:57c9)
-	text "There's no will to"
-	line "battle!"
+	text "There's no will"
+	line "to battle!"
 	prompt
 
 _CantEscapeText:: ; 897e3 (22:57e3)
@@ -1394,7 +1394,7 @@ _GainedText:: ; 89bc2 (22:5bc2)
 	line "@@"
 
 _WithExpAllText:: ; 89bd0 (22:5bd0)
-	text "with EXP.SHARE,"
+	text "with EXP. Share,"
 	cont "@@"
 
 _BoostedText:: ; 89be1 (22:5be1)
@@ -1442,7 +1442,7 @@ _TrainerWantsToFightText:: ; 89c5e (22:5c5e)
 	prompt
 
 _UnveiledGhostText:: ; 89c73 (22:5c73)
-	text "SILPH SCOPE"
+	text "Silph Scope"
 	line "unveiled the"
 	cont "GHOST's identity!"
 	prompt
@@ -1712,10 +1712,10 @@ _TossHowManyText:: ; 8a0e9 (22:60e9)
 
 _AccessedHoFPCText:: ; 8a0f4 (22:60f4)
 	text "Accessed #mon"
-	line "LEAGUE's site."
+	line "League's site."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Accessed the Hall"
+	line "of Fame list."
 	prompt
 
 _SwitchOnText:: ; 0x8a131
@@ -1802,7 +1802,7 @@ _CF4BExclamationText:: ; 8a288 (22:6288)
 	prompt
 
 _RequireCoinCaseText:: ; 8a28e (22:628e)
-	text "A COIN CASE is"
+	text "A Coin Case is"
 	line "required!@@"
 
 _ExchangeCoinsForPrizesText:: ; 8a2a9 (22:62a9)
@@ -1838,18 +1838,18 @@ _OhFineThenText:: ; 8a34c (22:634c)
 
 _GetDexRatedText:: ; 8a35d (22:635d)
 	text "Want to get your"
-	line "#DEX rated?"
+	line "#dex rated?"
 	done
 
 _ClosedOaksPCText:: ; 8a37b (22:637b)
 	text "Closed link to"
-	line "PROF.OAK's PC.@@"
+	line "PROF. OAK's PC.@@"
 
 _AccessedOaksPCText:: ; 8a39a (22:639a)
 	text "Accessed PROF."
 	line "OAK's PC."
 
-	para "Accessed #DEX"
+	para "Accessed #dex"
 	line "Rating System."
 	prompt
 
@@ -1987,7 +1987,7 @@ _FileDataDestroyedText:: ; 945f1 (25:45f1)
 
 _WouldYouLikeToSaveText:: ; 9460e (25:460e)
 	text "Would you like to"
-	line "SAVE the game?"
+	line "save the game?"
 	done
 
 _GameSavedText:: ; 94630 (25:4630)
@@ -2003,7 +2003,7 @@ _OlderFileWillBeErasedText:: ; 94643 (25:4643)
 
 _WhenYouChangeBoxText:: ; 94671 (25:4671)
 	text "When you change a"
-	line "#mon BOX, data"
+	line "#mon Box, data"
 	cont "will be saved."
 
 	para "Is that okay?"
@@ -2011,7 +2011,7 @@ _WhenYouChangeBoxText:: ; 94671 (25:4671)
 
 _ChooseABoxText:: ; 946b0 (25:46b0)
 	text "Choose a"
-	line $4a, " BOX.@@"
+	line $4a, " Box.@@"
 
 _EvolvedText:: ; 946c2 (25:46c2)
 	TX_RAM wcf4b
@@ -2425,8 +2425,8 @@ _PlayerBlackedOutText:: ; a25c5 (28:65c5)
 	prompt
 
 _RepelWoreOffText:: ; a25ef (28:65ef)
-	text "REPEL's effect"
-	line "wore off."
+	text "The repellent's"
+	line "effect wore off."
 	prompt
 
 _PokemartBuyingGreetingText:: ; a2608 (28:6608)
@@ -2562,7 +2562,7 @@ _HMCantDeleteText:: ; a284d (28:684d)
 
 _PokemonCenterWelcomeText:: ; a286d (28:686d)
 	text "Welcome to our"
-	line "#mon CENTER!"
+	line "#mon Center!"
 
 	para "We heal your"
 	line "#mon back to"
@@ -2665,7 +2665,7 @@ _FlashLightsAreaText:: ; a40a9 (29:40a9)
 _WarpToLastPokemonCenterText:: ; a40cc (29:40cc)
 	text "[PLAYER] warps"
 	line "to the last"
-	cont "#mon CENTER."
+	cont "#mon Center."
 	done
 
 _CannotUseTeleportNowText:: ; a40eb (29:40eb)
@@ -2712,22 +2712,20 @@ _SetToBoxText:: ; a418f (29:418f)
 	cont "@"
 	TX_RAM wBoxMonNicks
 	text " was"
-	cont "sent to #mon"
-	cont "BOX @"
+	cont "stored in Box @"
 	TX_RAM wcf4b
-	text " on PC!"
 	done
 
 _BoxIsFullText:: ; a41d6 (29:41d6)
 	text "There's no more"
 	line "room for #mon!"
 
-	para "The #mon BOX"
+	para "The #mon Box"
 	line "is full and can't"
 	cont "accept any more!"
 
-	para "Change the BOX at"
-	line "a #mon CENTER!"
+	para "Change the Box at"
+	line "a #mon Center!"
 	done
 
 INCLUDE "text/maps/pallet_town.asm"
@@ -2824,17 +2822,17 @@ _VitaminNoEffectText:: ; a689e (29:689e)
 
 _ThrewBaitText:: ; a68b8 (29:68b8)
 	text "[PLAYER] threw"
-	line "some BAIT."
+	line "some Bait."
 	done
 
 _ThrewRockText:: ; a68cc (29:68cc)
 	text "[PLAYER] threw a"
-	line "ROCK."
+	line "Rock."
 	done
 
 _PlayedFluteNoEffectText:: ; a68dd (29:68dd)
 	text "Played the #"
-	line "FLUTE."
+	line "Flute."
 
 	para "Now, that's a"
 	line "catchy tune!"
@@ -2847,7 +2845,7 @@ _FluteWokeUpText:: ; a690c (29:690c)
 
 _PlayedFluteHadEffectText:: ; a6928 (29:6928)
 	text "[PLAYER] played the"
-	line "# FLUTE.@@"
+	line "# Flute.@@"
 
 _CoinCaseNumCoinsText:: ; a6940 (29:6940)
 	text "Coins"
@@ -2857,13 +2855,13 @@ _CoinCaseNumCoinsText:: ; a6940 (29:6940)
 	prompt
 
 _ItemfinderFoundItemText:: ; a694f (29:694f)
-	text "Yes! ITEMFINDER"
+	text "Yes! Itemfinder"
 	line "indicates there's"
 	cont "an item nearby."
 	prompt
 
 _ItemfinderFoundNothingText:: ; a6981 (29:6981)
-	text "Nope! ITEMFINDER"
+	text "Nope! Itemfinder"
 	line "isn't responding."
 	prompt
 
@@ -2965,7 +2963,7 @@ _NoSurfingHereText:: ; a6b4e (29:6b4e)
 	prompt
 
 _BoxFullCannotThrowBallText:: ; a6b69 (29:6b69)
-	text "The #mon BOX"
+	text "The #mon Box"
 	line "is full! Can't"
 	cont "use that item!"
 	prompt
