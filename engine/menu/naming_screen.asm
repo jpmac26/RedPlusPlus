@@ -461,7 +461,7 @@ CalcStringLength: ; 68eb (1:68eb)
 	jr .asm_68f0
 
 PrintNamingText: ; 68f8 (1:68f8)
-	hlCoord 0, 1
+	hlCoord 1, 1
 	ld a, [wd07d]
 	ld de, YourTextString
 	and a
@@ -493,13 +493,13 @@ PrintNamingText: ; 68f8 (1:68f8)
 	jp PlaceString
 
 YourTextString: ; 693f (1:693f)
-	db "YOUR @"
+	db "Your @"
 
 RivalsTextString: ; 6945 (1:6945)
-	db "RIVAL's @"
+	db "Rival's @"
 
 NameTextString: ; 694d (1:694d)
-	db "NAME?@"
+	db "name?@"
 
 NicknameTextString: ; 6953 (1:6953)
-	db "NICKNAME?@"
+	db "Nickname?@"

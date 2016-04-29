@@ -91,7 +91,7 @@ Func_213c8:: ; 213c8 (8:53c8)
 SomeonesPCText:   db "Someone's PC@"
 BillsPCText:      db "BILL's PC@"
 PlayersPCText:    db "'s PC@"
-OaksPCText:       db "Prof. OAK's PC@"
+OaksPCText:       db "PROF. OAK's PC@"
 PKMNLeaguePCText: db $4a, "League@"
 LogOffPCText:     db "Log Off@"
 

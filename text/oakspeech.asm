@@ -5,11 +5,11 @@ _OakSpeechText1::
 
 	para "You've probably"
 	line "heard of me, I'm"
-	cont "Prof. Oak."
+	cont "PROF. OAK."
 	
 	para "This hack was"
 	line "created by"
-	cont "Romhacker Mateo."
+	cont "ROMHACKER MATEO."
 	
 	para "It has a lot of"
 	line "new features that"
