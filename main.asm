@@ -2246,7 +2246,7 @@ PrintSafariZoneSteps: ; c52f (3:452f)
 	hlCoord 1, 3
 	ld de, SafariBallText
 	call PlaceString
-	ld a, [W_NUMSAFARIBallS] ; W_NUMSAFARIBallS
+	ld a, [W_NUMSAFARIBALLS] ; W_NUMSAFARIBALLS
 	cp $a
 	jr nc, .asm_c56d
 	hlCoord 5, 3
@@ -2254,7 +2254,7 @@ PrintSafariZoneSteps: ; c52f (3:452f)
 	ld [hl], a
 .asm_c56d
 	hlCoord 6, 3
-	ld de, W_NUMSAFARIBallS ; W_NUMSAFARIBallS
+	ld de, W_NUMSAFARIBALLS ; W_NUMSAFARIBALLS
 	ld bc, $102
 	jp PrintNumber
 
