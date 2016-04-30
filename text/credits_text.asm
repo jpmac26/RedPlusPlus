@@ -63,6 +63,9 @@ CreditsTextPointers: ; 742c3 (1d:42c3)
 	dw CredFukui
 	dw CredClub
 	dw CredPAAD
+	dw CredPlusPlus
+	dw CredMateo
+	dw CredSwag
 
 CredVersion: ; 74343 (1d:4343)
 	db -8, "RED VERSION STAFF@"
@@ -192,3 +195,10 @@ CredClub: ; 7471a (1d:471a)
 	db -9, "NCL SUPER MARIO CLUB@"
 CredPAAD: ; 74730 (1d:4730)
 	db -5, "PAAD TESTING@"
+CredPlusPlus:
+	db -7, "RED++ HACK STAFF@"
+CredMateo:
+	db -5, "THEFAKEMATEO@"
+CredSwag:
+	db -6, "CAPTAINSWAG101@"
+	

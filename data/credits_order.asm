@@ -2,6 +2,9 @@ CreditsOrder: ; 74243 (1d:4243)
 ; subsequent credits elements will be displayed on separate lines.
 ; $FF, $FE, $FD, $FC, $FB, and $FA are commands that are used
 ; to go to the next set of credits texts.
+	db CRED_MON, CRED_PLUSPLUS, $FF
+	db CRED_EXECUTIVE, CRED_MATEO, $FF
+	db CRED_PROGRAMMERS, CRED_MATEO, CRED_SWAG, $FF
 	db CRED_MON, CRED_VERSION, $FF
 	db CRED_DIRECTOR, CRED_TAJIRI, $FF
 	db CRED_PROGRAMMERS, CRED_TA_OOTA, CRED_MORIMOTO, $FD
