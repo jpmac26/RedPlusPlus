@@ -83,7 +83,7 @@ endm
 	move ABSORB,       DRAIN_HP_EFFECT,             20, GRASS,    100, 25
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             40, GRASS,    100, 15
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,     90, 10
-	move GROWTH,       SPECIAL_UP1_EFFECT,           0, NORMAL,   100, 20
+	move GROWTH,       GROWTH_EFFECT,                0, NORMAL,   100, 20
 	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,     95, 25
 	move SOLARBEAM,    CHARGE_EFFECT,              120, GRASS,    100, 10
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,    75, 35
@@ -110,7 +110,7 @@ endm
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,   100, 30
 	move RAGE,         RAGE_EFFECT,                 20, NORMAL,   100, 20
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC,  100, 20
-	move NIGHT_SHADE,  SPECIAL_DAMAGE_EFFECT,        0, GHOST,    100, 15
+	move NIGHT_SHADE,  SPECIAL_DAMAGE_EFFECT,        1, GHOST,    100, 15
 	move MIMIC,        MIMIC_EFFECT,                 0, NORMAL,   100, 10
 	move SCREECH,      DEFENSE_DOWN2_EFFECT,         0, NORMAL,    85, 40
 	move DOUBLE_TEAM,  EVASION_UP1_EFFECT,           0, NORMAL,   100, 15

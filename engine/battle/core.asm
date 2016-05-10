@@ -7395,6 +7395,7 @@ MoveEffectPointerTable: ; 3f150 (f:7150)
 	 dw VoltTackleEffect          ; VOLT_TACKLE_EFFECT
 	 dw PoisonFangEffect          ; POISON_FANG_EFFECT
 	 dw $0000                     ; SUCKER_PUNCH_EFFECT
+	 dw GrowthEffect              ; GROWTH_EFFECT
 
 SleepEffect: ; 3f1fc (f:71fc)
 	ld de, wEnemyMonStatus
@@ -7458,7 +7459,7 @@ PoisonEffect: ; 3f24f (f:724f)
 	ld de, W_ENEMYMOVEEFFECT
 .poisonEffect
 	call CheckTargetSubstitute
-	jr nz, .noEffect ; can't posion a substitute target
+	jp nz, .noEffect ; can't posion a substitute target
 	ld a, [hli]
 	ld b, a
 	and a
@@ -7478,6 +7479,9 @@ PoisonEffect: ; 3f24f (f:724f)
 	ld b, $34 ; ~20% chance of poisoning
 	jr z, .sideEffectTest
 	cp POISON_SIDE_EFFECT2
+	ld b, $67 ; ~40% chance of poisoning
+	jr z, .sideEffectTest
+	cp POISON_FANG_EFFECT
 	ld b, $67 ; ~40% chance of poisoning
 	jr z, .sideEffectTest
 	push hl
@@ -7509,8 +7513,11 @@ PoisonEffect: ; 3f24f (f:724f)
 	ld hl, W_ENEMYBATTSTATUS3
 	ld de, W_ENEMYTOXICCOUNTER
 .ok
+	cp BITE ; Animation ID, not Move ID. Poison Fang uses Bite's animation.
+	jr z, .badlyPoison
 	cp TOXIC
 	jr nz, .normalPoison ; done if move is not Toxic
+.badlyPoison
 	set BadlyPoisoned, [hl] ; else set Toxic battstatus
 	xor a
 	ld [de], a
@@ -7898,7 +7905,10 @@ Func_3f520: ; 3f520 (f:7520)
 	dec [hl]
 
 PrintNothingHappenedText: ; 3f522 (f:7522)
-	ld hl, NothingHappenedText
+	ld b, c
+	inc b
+	call Func_3f688
+	ld hl, WontRiseAnymoreText
 	jp PrintText
 
 MonsStatsRoseText: ; 3f528 (f:7528)
@@ -7922,6 +7932,10 @@ GreatlyRoseText: ; 3f542 (f:7542)
 
 RoseText: ; 3f547 (f:7547)
 	TX_FAR _RoseText
+	db "@"
+
+WontRiseAnymoreText:
+	TX_FAR _WontRiseAnymoreText
 	db "@"
 
 StatModifierDownEffect: ; 3f54c (f:754c)
@@ -8094,7 +8108,10 @@ CantLowerAnymore: ; 3f650 (f:7650)
 	ld a, [de]
 	cp ATTACK_DOWN_SIDE_EFFECT
 	ret nc
-	ld hl, NothingHappenedText
+	ld b, c
+	inc b
+	call Func_3f688
+	ld hl, WontFallAnymoreText
 	jp PrintText
 
 MoveMissed: ; 3f65a (f:765a)
@@ -8126,6 +8143,10 @@ GreatlyFellText: ; 3f67e (f:767e)
 
 FellText: ; 3f683 (f:7683)
 	TX_FAR _FellText
+	db "@"
+
+WontFallAnymoreText:
+	TX_FAR _WontFallAnymoreText
 	db "@"
 
 Func_3f688: ; 3f688 (f:7688)
@@ -8922,18 +8943,34 @@ Func_3fbbc: ; 3fbbc (f:7bbc)
 	
 FangAttacks:
 	call FlinchSideEffect
-	call FreezeBurnParalyzeEffect
-	ret
+	jp FreezeBurnParalyzeEffect
 	
 VoltTackleEffect:
 	call RecoilEffect
-	call FreezeBurnParalyzeEffect
-	ret
+	jp FreezeBurnParalyzeEffect
 	
 PoisonFangEffect:
 	call FlinchSideEffect
-	call PoisonEffect
-	ret
+	jp PoisonEffect
+
+GrowthEffect:
+	ld a, [H_WHOSETURN]
+	and a
+	jr z, .notEnemyTurn
+; Enemy's turn
+	ld a, SPECIAL_UP1_EFFECT
+	ld [W_ENEMYMOVEEFFECT], a
+	call StatModifierUpEffect
+	ld a, ATTACK_UP1_EFFECT
+	ld [W_ENEMYMOVEEFFECT], a
+	jp StatModifierUpEffect
+.notEnemyTurn
+	ld a, SPECIAL_UP1_EFFECT
+	ld [W_PLAYERMOVEEFFECT], a
+	call StatModifierUpEffect
+	ld a, ATTACK_UP1_EFFECT
+	ld [W_PLAYERMOVEEFFECT], a
+	jp StatModifierUpEffect
 
 SuckerPunchHitTest:
 ; Sets carry flag if the move should miss. (Resets carry flag otherwise.)
@@ -8952,86 +8989,19 @@ SuckerPunchHitTest:
 	ld a, [H_WHOSETURN]
 	and a
 	jr z, .getEnemyMove
-	ld a, [wPlayerSelectedMove]
+	ld a, [W_PLAYERMOVEPOWER]
 	jr .checkIfDamagingMove
 .getEnemyMove
-	ld a, [wEnemySelectedMove]
+	ld a, [W_ENEMYMOVEPOWER]
 .checkIfDamagingMove
-	ld b, a
-	ld hl, NonDamagingMoves
-.nonDamageMoveLoop
-	ld a, [hli]
-	cp $ff  ; terminator
-	jr z, .moveHit
-	cp b
+	and a ; does the move have 0 for its power? (special damage moves have 1 so this still works)
 	jr z, .moveMissed
-	jr .nonDamageMoveLoop
 .moveHit
 	and a  ; reset carry flag
 	ret
 .moveMissed
 	scf
 	ret
-
-NonDamagingMoves:
-; Used to determine if Sucker Punch will hit.
-; The list of non-damaging moves is much shorter than damaging moves, so we're saving precious space in this Bank.
-	db SWORDS_DANCE
-	db WHIRLWIND
-	db SAND_ATTACK
-	db TAIL_WHIP
-	db LEER
-	db GROWL
-	db ROAR
-	db SING
-	db SUPERSONIC
-	db DISABLE
-	db MIST
-	db LEECH_SEED
-	db GROWTH
-	db POISONPOWDER
-	db STUN_SPORE
-	db SLEEP_POWDER
-	db STRING_SHOT
-	db THUNDER_WAVE
-	db TOXIC
-	db HYPNOSIS
-	db MEDITATE
-	db AGILITY
-	db TELEPORT
-	db MIMIC
-	db SCREECH
-	db DOUBLE_TEAM
-	db RECOVER
-	db HARDEN
-	db MINIMIZE
-	db SMOKESCREEN
-	db CONFUSE_RAY
-	db WITHDRAW
-	db DEFENSE_CURL
-	db BARRIER
-	db LIGHT_SCREEN
-	db HAZE
-	db REFLECT
-	db FOCUS_ENERGY
-	db METRONOME
-	db AMNESIA
-	db KINESIS
-	db SOFTBOILED
-	db GLARE
-	db POISON_GAS
-	db LOVELY_KISS
-	db TRANSFORM
-	db SPORE
-	db FLASH
-	db SPLASH
-	db REST
-	db SHARPEN
-	db CONVERSION
-	db SUBSTITUTE
-	db MOONLIGHT
-	db BABYDOLLEYES
-	db $ff
 
 CheckForHex:
 	ld a, [H_WHOSETURN]
