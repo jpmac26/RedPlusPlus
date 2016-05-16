@@ -13,8 +13,8 @@ INCBIN "pic/bmon/gastly.pic",0,1 ; 77, sprite dimensions
 dw GastlyPicFront
 dw GastlyPicBack
 ; move tutor compatibility flags
-	m_tutor 0
-	m_tutor 0
+	m_tutor 7,8
+	m_tutor 9,10,11
 	m_tutor 0
 	m_tutor 0
 db 3 ; growth rate

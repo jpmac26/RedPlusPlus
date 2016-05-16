@@ -13,8 +13,8 @@ INCBIN "pic/bmon/cleffa.pic",0,1 ; 55, sprite dimensions
 dw CleffaPicFront
 dw CleffaPicBack
 ; move tutor compatibility flags
-	m_tutor 0
-	m_tutor 0
+	m_tutor 7
+	m_tutor 9,10,11
 	m_tutor 0
 	m_tutor 0
 db 4 ; growth rate

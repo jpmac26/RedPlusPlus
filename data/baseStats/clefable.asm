@@ -13,8 +13,8 @@ INCBIN "pic/bmon/clefable.pic",0,1 ; 66, sprite dimensions
 dw ClefablePicFront
 dw ClefablePicBack
 ; move tutor compatibility flags
-	m_tutor 0
-	m_tutor 0
+	m_tutor 7
+	m_tutor 9,10,11
 	m_tutor 0
 	m_tutor 0
 db 4 ; growth rate
