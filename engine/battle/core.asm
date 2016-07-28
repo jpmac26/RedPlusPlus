@@ -944,15 +944,25 @@ FaintEnemyPokemon ; 0x3c567
 	call SaveScreenTilesToBuffer1
 	xor a
 	ld [wBattleResult], a
+
+    ; give EXP to mons that fought
+	ld [wcc5b], a
+    ld a, [wPartyGainExpFlags]
+    push af
+	callab GainExperience
+
 	ld b, EXP_SHARE
 	call IsItemInBag
-	push af
-	jr z, .giveExpToMonsThatFought ; if no exp all, then jump
+    pop bc
+	ret z
 
-; the player has exp all
-; first, we halve the values that determine exp gain
-; the enemy mon base stats are added to stat exp, so they are halved
-; the base exp (which determines normal exp) is also halved
+	; handle EXP all
+    push bc
+    ld a, $1
+	ld [wcc5b], a
+	; first, we halve the values that determine exp gain
+    ; the enemy mon base stats are added to stat exp, so they are halved
+    ; the base exp (which determines normal exp) is also halved
 	ld hl, wEnemyMonBaseStats
 	ld b, $7
 .halveExpDataLoop
@@ -961,20 +971,8 @@ FaintEnemyPokemon ; 0x3c567
 	dec b
 	jr nz, .halveExpDataLoop
 
-; give exp (divided evenly) to the mons that actually fought in battle against the enemy mon that has fainted
-; if exp all is in the bag, this will be only be half of the stat exp and normal exp, due to the above loop
-.giveExpToMonsThatFought
-	xor a
-	ld [wcc5b], a
-	callab GainExperience
-	pop af
-	ret z ; return if no exp all
-
-; the player has exp all
-; now, set the gain exp flag for every party member
-; half of the total stat exp and normal exp will divided evenly amongst every party member
-	ld a, $1
-	ld [wcc5b], a
+	; find mons that did NOT fight in the battle
+		; b = 00111111 (ones count = # mons in party)
 	ld a, [wPartyCount]
 	ld b, 0
 .gainExpFlagsLoop
@@ -982,8 +980,14 @@ FaintEnemyPokemon ; 0x3c567
 	rl b
 	dec a
 	jr nz, .gainExpFlagsLoop
-	ld a, b
+
+		; a = party gain flags
+	pop af
+	
+		; a = a XOR b = flags for mons that didn't fight
+	xor b
 	ld [wPartyGainExpFlags], a
+	
 	ld hl, GainExperience
 	ld b, BANK(GainExperience)
 	jp Bankswitch
@@ -7383,7 +7387,7 @@ MoveEffectPointerTable: ; 3f150 (f:7150)
 	 dw FangAttacks               ; ICE_FANG_EFFECT
 	 dw FangAttacks               ; THUNDER_FANG_EFFECT
 	 dw VoltTackleEffect          ; VOLT_TACKLE_EFFECT
-	 dw PoisonFangEffect          ; POISON_FANG_EFFECT
+	 dw PoisonEffect              ; POISON_FANG_EFFECT
 	 dw $0000                     ; SUCKER_PUNCH_EFFECT
 	 dw GrowthEffect              ; GROWTH_EFFECT
 
@@ -8938,10 +8942,6 @@ FangAttacks:
 VoltTackleEffect:
 	call RecoilEffect
 	jp FreezeBurnParalyzeEffect
-	
-PoisonFangEffect:
-	call FlinchSideEffect
-	jp PoisonEffect
 
 GrowthEffect:
 	ld a, [H_WHOSETURN]
