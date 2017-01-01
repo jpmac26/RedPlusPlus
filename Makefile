@@ -22,8 +22,8 @@ yellow_opt = $(cgb_opt) -t "POKEMON YELLOW"
 
 
 
-# If your default python is 3, you may want to change this to python27.
-PYTHON := python
+# If your default python is 3, you may want to change this to python2.
+PYTHON := python2
 
 # md5sum -c is used to compare rom hashes. The options may vary across platforms.
 MD5 := md5sum -c --quiet
