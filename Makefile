@@ -1,23 +1,23 @@
 # Build Red/Blue. Yellow is WIP.
-roms := pokered.gbc pokeblue.gbc
+roms := pokeredplusplus.gbc pokeredplusplushard.gbc
 
 
-.PHONY: all clean red blue yellow compare
+.PHONY: all clean redplusplus redplusplushard yellow compare
 
 all:    $(roms)
-red:    pokered.gbc
-blue:   pokeblue.gbc
+red:    pokeredplusplus.gbc
+blue:   pokeredplusplushard.gbc
 yellow: pokeyellow.gbc
 
-versions := red blue yellow
+versions := redplusplus redplusplushard yellow
 
 
 # Header options for rgbfix.
 dmg_opt =  -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03
 cgb_opt = -cjsv -k 01 -l 0x33 -m 0x1b -p 0 -r 03
 
-red_opt    = $(dmg_opt) -t "POKEMON RED"
-blue_opt   = $(dmg_opt) -t "POKEMON BLUE"
+red_opt    = $(dmg_opt) -t "REDPLUSPLUS"
+blue_opt   = $(dmg_opt) -t "REDPLUSHARD"
 yellow_opt = $(cgb_opt) -t "POKEMON YELLOW"
 
 
@@ -32,7 +32,7 @@ MD5 := md5sum -c --quiet
 # The compare target is a shortcut to check that the build matches the original roms exactly.
 # This is for contributors to make sure a change didn't affect the contents of the rom.
 # More thorough comparison can be made by diffing the output of hexdump -C against both roms.
-compare: red blue
+compare: redplusplus redplusplushard
 	@$(MD5) roms.md5
 
 
